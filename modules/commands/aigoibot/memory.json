@@ -1,0 +1,26 @@
+{
+  "lastActions": [],
+  "lastUser": null,
+  "context": {},
+  "greetings": [
+    "Dạ? Gọi em có chuyện gì ạ? :3"
+  ],
+  "6691735800885668": {
+    "lastActions": [
+      {
+        "action": "search_music",
+        "details": {
+          "keyword": "Bài hát hay nhất hiện nay"
+        },
+        "timestamp": 1749091877235
+      }
+    ],
+    "lastUser": "100013112775163",
+    "context": {
+      "search_music": {
+        "keyword": "Bài hát hay nhất hiện nay"
+      }
+    },
+    "greetings": []
+  }
+}

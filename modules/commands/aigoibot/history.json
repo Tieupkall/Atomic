@@ -1,0 +1,198 @@
+{
+  "6691735800885668": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:46:14, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Đjk\",\"reply\":\"❌ Đã tắt Kurumi ở nhóm này.\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:46:14, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Đjk\",\"reply\":\"❌ Đã tắt Kurumi ở nhóm này.\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "```json\n{\n  \"content\": {\n    \"text\": \"Ê, mày nói cái gì thế hả?  Đừng có nói tục ở đây nha!\",\n    \"thread_id\": \"6691735800885668\"\n  },\n  \"speak_response\": {\n    \"status\": false,\n    \"text_to_speak\": null\n  },\n  \"nhac\": {\n    \"status\": false,\n    \"keyword\": null\n  },\n  \"hanh_dong\": {\n    \"doi_biet_danh\": {\n      \"status\": false,\n      \"biet_danh_moi\": null,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"doi_icon_box\": {\n      \"status\": false,\n      \"icon\": null,\n      \"thread_id\": null\n    },\n    \"doi_ten_nhom\": {\n      \"status\": false,\n      \"ten_moi\": null,\n      \"thread_id\": null\n    },\n    \"kick_nguoi_dung\": {\n      \"status\": false,\n      \"thread_id\": null,\n      \"user_id\": null,\n      \"confirmed\": false\n    },\n    \"add_nguoi_dung\": {\n      \"status\": false,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"reaction\": {\n      \"status\": true,\n      \"emoji\": \"😠\"\n    }\n  }\n}\n```\n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Ê, mày nói cái gì thế hả?  Đừng có nói tục ở đây nha!"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:46:23, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Ê\",\"reply\":\"Ê, mày nói cái gì thế hả?  Đừng có nói tục ở đây nha!\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:46:23, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Ê\",\"reply\":\"Ê, mày nói cái gì thế hả?  Đừng có nói tục ở đây nha!\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "```json\n{\n  \"content\": {\n    \"text\": \"Hửm? Chuyện gì vậy cậu?\",\n    \"thread_id\": \"6691735800885668\"\n  },\n  \"speak_response\": {\n    \"status\": false,\n    \"text_to_speak\": null\n  },\n  \"nhac\": {\n    \"status\": false,\n    \"keyword\": null\n  },\n  \"hanh_dong\": {\n    \"doi_biet_danh\": {\n      \"status\": false,\n      \"biet_danh_moi\": null,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"doi_icon_box\": {\n      \"status\": false,\n      \"icon\": null,\n      \"thread_id\": null\n    },\n    \"doi_ten_nhom\": {\n      \"status\": false,\n      \"ten_moi\": null,\n      \"thread_id\": null\n    },\n    \"kick_nguoi_dung\": {\n      \"status\": false,\n      \"thread_id\": null,\n      \"user_id\": null,\n      \"confirmed\": false\n    },\n    \"add_nguoi_dung\": {\n      \"status\": false,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"reaction\": {\n      \"status\": false,\n      \"emoji\": null\n    }\n  }\n}\n```\n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Hửm? Chuyện gì vậy cậu?"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:46:39, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Tại sao m hay lỗi vậy\",\"reply\":\"Hửm? Chuyện gì vậy cậu?\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:46:39, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Tại sao m hay lỗi vậy\",\"reply\":\"Hửm? Chuyện gì vậy cậu?\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "```json\n{\n  \"content\": {\n    \"text\": \"Tớ xin lỗi cậu nha! Có lẽ do mạng lag hoặc là server đang bị quá tải đó. Tớ sẽ cố gắng hoạt động tốt hơn, cậu thông cảm nha 🥺\",\n    \"thread_id\": \"6691735800885668\"\n  },\n  \"speak_response\": {\n    \"status\": false,\n    \"text_to_speak\": null\n  },\n  \"nhac\": {\n    \"status\": false,\n    \"keyword\": null\n  },\n  \"hanh_dong\": {\n    \"doi_biet_danh\": {\n      \"status\": false,\n      \"biet_danh_moi\": null,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"doi_icon_box\": {\n      \"status\": false,\n      \"icon\": null,\n      \"thread_id\": null\n    },\n    \"doi_ten_nhom\": {\n      \"status\": false,\n      \"ten_moi\": null,\n      \"thread_id\": null\n    },\n    \"kick_nguoi_dung\": {\n      \"status\": false,\n      \"thread_id\": null,\n      \"user_id\": null,\n      \"confirmed\": false\n    },\n    \"add_nguoi_dung\": {\n      \"status\": false,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"reaction\": {\n      \"status\": true,\n      \"emoji\": \"😢\"\n    }\n  }\n}\n```\n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Tớ xin lỗi cậu nha! Có lẽ do mạng lag hoặc là server đang bị quá tải đó. Tớ sẽ cố gắng hoạt động tốt hơn, cậu thông cảm nha 🥺"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:47:23, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Ê hát bài nghe coi\",\"reply\":\"Tớ xin lỗi cậu nha! Có lẽ do mạng lag hoặc là server đang bị quá tải đó. Tớ sẽ cố gắng hoạt động tốt hơn, cậu thông cảm nha 🥺\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:47:23, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Ê hát bài nghe coi\",\"reply\":\"Tớ xin lỗi cậu nha! Có lẽ do mạng lag hoặc là server đang bị quá tải đó. Tớ sẽ cố gắng hoạt động tốt hơn, cậu thông cảm nha 🥺\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "```json\n{\n  \"content\": {\n    \"text\": \"Hát hả?  Tớ... tớ không biết hát đâu cậu à!  Tớ chỉ là một trợ lý ảo thôi mà =))\",\n    \"thread_id\": \"6691735800885668\"\n  },\n  \"speak_response\": {\n    \"status\": false,\n    \"text_to_speak\": null\n  },\n  \"nhac\": {\n    \"status\": true,\n    \"keyword\": \"nhạc trẻ hay\"\n  },\n  \"hanh_dong\": {\n    \"doi_biet_danh\": {\n      \"status\": false,\n      \"biet_danh_moi\": null,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"doi_icon_box\": {\n      \"status\": false,\n      \"icon\": null,\n      \"thread_id\": null\n    },\n    \"doi_ten_nhom\": {\n      \"status\": false,\n      \"ten_moi\": null,\n      \"thread_id\": null\n    },\n    \"kick_nguoi_dung\": {\n      \"status\": false,\n      \"thread_id\": null,\n      \"user_id\": null,\n      \"confirmed\": false\n    },\n    \"add_nguoi_dung\": {\n      \"status\": false,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"reaction\": {\n      \"status\": true,\n      \"emoji\": \"😅\"\n    }\n  }\n}\n```\n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Hát hả?  Tớ... tớ không biết hát đâu cậu à!  Tớ chỉ là một trợ lý ảo thôi mà =))"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:51:13, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Hát 1 bài đi\",\"reply\":\"Dạ? Gọi em có chuyện gì ạ? :3\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"09:51:13, 5/6/2025\",\"senderName\":\"Đinh Trọng Hoài\",\"content\":\"Hát 1 bài đi\",\"reply\":\"Dạ? Gọi em có chuyện gì ạ? :3\",\"threadID\":\"6691735800885668\",\"senderID\":\"100013112775163\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "```json\n{\n  \"content\": {\n    \"text\": \"Tớ nói rồi mà cậu không tin à :( Tớ không biết hát được đâu.  Nhưng mà... nếu cậu muốn nghe nhạc thì tớ có thể tìm cho cậu nha!  Cậu muốn nghe bài gì nào?\",\n    \"thread_id\": \"6691735800885668\"\n  },\n  \"speak_response\": {\n    \"status\": false,\n    \"text_to_speak\": null\n  },\n  \"nhac\": {\n    \"status\": false,\n    \"keyword\": null\n  },\n  \"hanh_dong\": {\n    \"doi_biet_danh\": {\n      \"status\": false,\n      \"biet_danh_moi\": null,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"doi_icon_box\": {\n      \"status\": false,\n      \"icon\": null,\n      \"thread_id\": null\n    },\n    \"doi_ten_nhom\": {\n      \"status\": false,\n      \"ten_moi\": null,\n      \"thread_id\": null\n    },\n    \"kick_nguoi_dung\": {\n      \"status\": false,\n      \"thread_id\": null,\n      \"user_id\": null,\n      \"confirmed\": false\n    },\n    \"add_nguoi_dung\": {\n      \"status\": false,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"reaction\": {\n      \"status\": true,\n      \"emoji\": \"😞\"\n    }\n  }\n}\n```\n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Tớ nói rồi mà cậu không tin à :( Tớ không biết hát được đâu.  Nhưng mà... nếu cậu muốn nghe nhạc thì tớ có thể tìm cho cậu nha!  Cậu muốn nghe bài gì nào?"
+        }
+      ]
+    }
+  ],
+  "9866579163392072": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"10:00:16, 5/6/2025\",\"senderName\":\"Nguyễn Trương Khang\",\"content\":\"bot này spam lắm thế\",\"reply\":\"Em hôm nay vừa hâm vừa dở\nAnh bước vào che chở có được không?\",\"threadID\":\"9866579163392072\",\"senderID\":\"100082897621667\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "{\"time\":\"10:00:16, 5/6/2025\",\"senderName\":\"Nguyễn Trương Khang\",\"content\":\"bot này spam lắm thế\",\"reply\":\"Em hôm nay vừa hâm vừa dở\nAnh bước vào che chở có được không?\",\"threadID\":\"9866579163392072\",\"senderID\":\"100082897621667\",\"id_cua_bot\":\"61577099514537\",\"context\":{},\"mentionedUserIDs\":[]}"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "```json\n{\n  \"content\": {\n    \"text\": \"Em hôm nay vừa hâm vừa dở\\nAnh bước vào che chở có được không?\",\n    \"thread_id\": \"9866579163392072\"\n  },\n  \"speak_response\": {\n    \"status\": false,\n    \"text_to_speak\": null\n  },\n  \"nhac\": {\n    \"status\": false,\n    \"keyword\": null\n  },\n  \"hanh_dong\": {\n    \"doi_biet_danh\": {\n      \"status\": false,\n      \"biet_danh_moi\": null,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"doi_icon_box\": {\n      \"status\": false,\n      \"icon\": null,\n      \"thread_id\": null\n    },\n    \"doi_ten_nhom\": {\n      \"status\": false,\n      \"ten_moi\": null,\n      \"thread_id\": null\n    },\n    \"kick_nguoi_dung\": {\n      \"status\": false,\n      \"thread_id\": null,\n      \"user_id\": null,\n      \"confirmed\": false\n    },\n    \"add_nguoi_dung\": {\n      \"status\": false,\n      \"user_id\": null,\n      \"thread_id\": null\n    },\n    \"reaction\": {\n      \"status\": false,\n      \"emoji\": null\n    }\n  }\n}\n```\n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Em hôm nay vừa hâm vừa dở\nAnh bước vào che chở có được không?"
+        }
+      ]
+    }
+  ]
+}

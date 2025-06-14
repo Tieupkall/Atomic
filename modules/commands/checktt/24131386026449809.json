@@ -1,0 +1,820 @@
+{
+    "total": [
+        {
+            "id": "61550528673840",
+            "count": 7
+        },
+        {
+            "id": "61550859368874",
+            "count": 0
+        },
+        {
+            "id": "61551202621743",
+            "count": 5
+        },
+        {
+            "id": "61558219527956",
+            "count": 9
+        },
+        {
+            "id": "61560636343050",
+            "count": 0
+        },
+        {
+            "id": "61566116851013",
+            "count": 0
+        },
+        {
+            "id": "61566407567301",
+            "count": 20
+        },
+        {
+            "id": "61566807730469",
+            "count": 0
+        },
+        {
+            "id": "61568443432899",
+            "count": 17
+        },
+        {
+            "id": "61572135665820",
+            "count": 16
+        },
+        {
+            "id": "61572607007168",
+            "count": 12
+        },
+        {
+            "id": "61573768814331",
+            "count": 1
+        },
+        {
+            "id": "61573936104305",
+            "count": 0
+        },
+        {
+            "id": "61574043307224",
+            "count": 0
+        },
+        {
+            "id": "61575306772770",
+            "count": 0
+        },
+        {
+            "id": "100000493975005",
+            "count": 1
+        },
+        {
+            "id": "100013112775163",
+            "count": 47
+        },
+        {
+            "id": "100015958666251",
+            "count": 3
+        },
+        {
+            "id": "100048807344371",
+            "count": 0
+        },
+        {
+            "id": "100051326408408",
+            "count": 0
+        },
+        {
+            "id": "100051439970359",
+            "count": 122
+        },
+        {
+            "id": "100060410386561",
+            "count": 16
+        },
+        {
+            "id": "100065893710232",
+            "count": 131
+        },
+        {
+            "id": "100067827494573",
+            "count": 66
+        },
+        {
+            "id": "100077632416025",
+            "count": 3
+        },
+        {
+            "id": "100080280230629",
+            "count": 0
+        },
+        {
+            "id": "100083750151956",
+            "count": 0
+        },
+        {
+            "id": "100083782546067",
+            "count": 36
+        },
+        {
+            "id": "100087606834399",
+            "count": 0
+        },
+        {
+            "id": "100087885292897",
+            "count": 0
+        },
+        {
+            "id": "100091298757184",
+            "count": 0
+        },
+        {
+            "id": "100013184707783",
+            "count": 19
+        },
+        {
+            "id": "61572250255278",
+            "count": 9
+        },
+        {
+            "id": "61576955552109",
+            "count": 6
+        }
+    ],
+    "week": [
+        {
+            "id": "61550528673840",
+            "count": 0,
+            "name": "Đỗ Nguyễn Hữu Thắng"
+        },
+        {
+            "id": "61550859368874",
+            "count": 0,
+            "name": "Anth Nhật"
+        },
+        {
+            "id": "61551202621743",
+            "count": 0,
+            "name": "Ng Chienn Thangg 🦑💢"
+        },
+        {
+            "id": "61558219527956",
+            "count": 0,
+            "name": "Hải Yến"
+        },
+        {
+            "id": "61560636343050",
+            "count": 0,
+            "name": "Minh Khoi"
+        },
+        {
+            "id": "61566116851013",
+            "count": 0,
+            "name": "Ho Hen"
+        },
+        {
+            "id": "61566407567301",
+            "count": 0,
+            "name": "Hoangg Tuann"
+        },
+        {
+            "id": "61566807730469",
+            "count": 0,
+            "name": "Vo Yeu Cua Anh"
+        },
+        {
+            "id": "61568443432899",
+            "count": 0,
+            "name": "ぴ・　ꔫ Trâm Anhꜝꜝ　ᗢ︒"
+        },
+        {
+            "id": "61572135665820",
+            "count": 0,
+            "name": "Anh Kiet"
+        },
+        {
+            "id": "61572607007168",
+            "count": 0,
+            "name": "Hân Tran"
+        },
+        {
+            "id": "61573768814331",
+            "count": 0,
+            "name": "Ph Gia Han"
+        },
+        {
+            "id": "61573936104305",
+            "count": 0,
+            "name": "Bảo Bảnh"
+        },
+        {
+            "id": "61574043307224",
+            "count": 0,
+            "name": "そNa cte ᶻz︒　︖"
+        },
+        {
+            "id": "61575306772770",
+            "count": 0,
+            "name": "Ngu Bot"
+        },
+        {
+            "id": "100000493975005",
+            "count": 0,
+            "name": "Nguyễn Đinh Tiến Dũng"
+        },
+        {
+            "id": "100013112775163",
+            "count": 0,
+            "name": "Đinh Trọng Hoài"
+        },
+        {
+            "id": "100015958666251",
+            "count": 0,
+            "name": "Phạm Minh Sang"
+        },
+        {
+            "id": "100048807344371",
+            "count": 0,
+            "name": "Hưng Cter"
+        },
+        {
+            "id": "100051326408408",
+            "count": 0,
+            "name": "Mat Ket Noi"
+        },
+        {
+            "id": "100051439970359",
+            "count": 0,
+            "name": "Quang Trung"
+        },
+        {
+            "id": "100060410386561",
+            "count": 0,
+            "name": "🫧 Thu Hiềnn 🪼"
+        },
+        {
+            "id": "100065893710232",
+            "count": 0,
+            "name": "Thanh Mai☘️🧸💕💚❣️💔💞💝🩷🩵💜💙🙀😹😿😫🤭"
+        },
+        {
+            "id": "100067827494573",
+            "count": 0,
+            "name": "Minh Truong"
+        },
+        {
+            "id": "100077632416025",
+            "count": 0,
+            "name": "Nguyễn Hoàng Duy"
+        },
+        {
+            "id": "100080280230629",
+            "count": 0,
+            "name": "Ngocc Tuann  🎧🧸💤"
+        },
+        {
+            "id": "100083750151956",
+            "count": 0,
+            "name": "Duc Anh"
+        },
+        {
+            "id": "100083782546067",
+            "count": 0,
+            "name": "Tran Bao Long"
+        },
+        {
+            "id": "100087606834399",
+            "count": 0,
+            "name": "🌪️ ʚʬʬHoangg'x Nhutt'z Rén'x War'zʬʬɞ 🍁"
+        },
+        {
+            "id": "100087885292897",
+            "count": 0,
+            "name": "Sain Su"
+        },
+        {
+            "id": "100091298757184",
+            "count": 0,
+            "name": "Mhunz Ng"
+        },
+        {
+            "id": "100013184707783",
+            "count": 0,
+            "name": "Chất Liệu Người Đẹp"
+        },
+        {
+            "id": "61572250255278",
+            "count": 0,
+            "name": "Hao Anh"
+        },
+        {
+            "id": "61576955552109",
+            "count": 0,
+            "name": "Xi Xu Ba"
+        }
+    ],
+    "day": [
+        {
+            "id": "61550528673840",
+            "count": 4,
+            "name": "Đỗ Nguyễn Hữu Thắng"
+        },
+        {
+            "id": "61550859368874",
+            "count": 0,
+            "name": "Anth Nhật"
+        },
+        {
+            "id": "61551202621743",
+            "count": 4,
+            "name": "Ng Chienn Thangg 🦑💢"
+        },
+        {
+            "id": "61558219527956",
+            "count": 9,
+            "name": "Hải Yến"
+        },
+        {
+            "id": "61560636343050",
+            "count": 0,
+            "name": "Minh Khoi"
+        },
+        {
+            "id": "61566116851013",
+            "count": 0,
+            "name": "Ho Hen"
+        },
+        {
+            "id": "61566407567301",
+            "count": 3,
+            "name": "Hoangg Tuann"
+        },
+        {
+            "id": "61566807730469",
+            "count": 0,
+            "name": "Vo Yeu Cua Anh"
+        },
+        {
+            "id": "61568443432899",
+            "count": 12,
+            "name": "ぴ・　ꔫ Trâm Anhꜝꜝ　ᗢ︒"
+        },
+        {
+            "id": "61572135665820",
+            "count": 2,
+            "name": "Anh Kiet"
+        },
+        {
+            "id": "61572607007168",
+            "count": 0,
+            "name": "Hân Tran"
+        },
+        {
+            "id": "61573768814331",
+            "count": 1,
+            "name": "Ph Gia Han"
+        },
+        {
+            "id": "61573936104305",
+            "count": 0,
+            "name": "Bảo Bảnh"
+        },
+        {
+            "id": "61574043307224",
+            "count": 0,
+            "name": "そNa cte ᶻz︒　︖"
+        },
+        {
+            "id": "61575306772770",
+            "count": 0,
+            "name": "Ngu Bot"
+        },
+        {
+            "id": "100000493975005",
+            "count": 1,
+            "name": "Nguyễn Đinh Tiến Dũng"
+        },
+        {
+            "id": "100013112775163",
+            "count": 18,
+            "name": "Đinh Trọng Hoài"
+        },
+        {
+            "id": "100015958666251",
+            "count": 0,
+            "name": "Phạm Minh Sang"
+        },
+        {
+            "id": "100048807344371",
+            "count": 0,
+            "name": "Hưng Cter"
+        },
+        {
+            "id": "100051326408408",
+            "count": 0,
+            "name": "Mat Ket Noi"
+        },
+        {
+            "id": "100051439970359",
+            "count": 18,
+            "name": "Quang Trung"
+        },
+        {
+            "id": "100060410386561",
+            "count": 16,
+            "name": "🫧 Thu Hiềnn 🪼"
+        },
+        {
+            "id": "100065893710232",
+            "count": 32,
+            "name": "Thanh Mai☘️🧸💕💚❣️💔💞💝🩷🩵💜💙🙀😹😿😫🤭"
+        },
+        {
+            "id": "100067827494573",
+            "count": 40,
+            "name": "Minh Truong"
+        },
+        {
+            "id": "100077632416025",
+            "count": 0,
+            "name": "Nguyễn Hoàng Duy"
+        },
+        {
+            "id": "100080280230629",
+            "count": 0,
+            "name": "Ngocc Tuann  🎧🧸💤"
+        },
+        {
+            "id": "100083750151956",
+            "count": 0,
+            "name": "Duc Anh"
+        },
+        {
+            "id": "100083782546067",
+            "count": 19,
+            "name": "Tran Bao Long"
+        },
+        {
+            "id": "100087606834399",
+            "count": 0,
+            "name": "🌪️ ʚʬʬHoangg'x Nhutt'z Rén'x War'zʬʬɞ 🍁"
+        },
+        {
+            "id": "100087885292897",
+            "count": 0,
+            "name": "Sain Su"
+        },
+        {
+            "id": "100091298757184",
+            "count": 0,
+            "name": "Mhunz Ng"
+        },
+        {
+            "id": "100013184707783",
+            "count": 1,
+            "name": "Chất Liệu Người Đẹp"
+        },
+        {
+            "id": "61572250255278",
+            "count": 9
+        },
+        {
+            "id": "61576955552109",
+            "count": 6
+        }
+    ],
+    "time": 0,
+    "last": {
+        "time": 4,
+        "day": [
+            {
+                "id": "61550528673840",
+                "count": 3,
+                "name": "Đỗ Nguyễn Hữu Thắng"
+            },
+            {
+                "id": "61550859368874",
+                "count": 0,
+                "name": "Anth Nhật"
+            },
+            {
+                "id": "61551202621743",
+                "count": 1,
+                "name": "Ng Chienn Thangg 🦑💢"
+            },
+            {
+                "id": "61558219527956",
+                "count": 0,
+                "name": "Hải Yến"
+            },
+            {
+                "id": "61560636343050",
+                "count": 0,
+                "name": "Minh Khoi"
+            },
+            {
+                "id": "61566116851013",
+                "count": 0,
+                "name": "Ho Hen"
+            },
+            {
+                "id": "61566407567301",
+                "count": 17,
+                "name": "Hoangg Tuann"
+            },
+            {
+                "id": "61566807730469",
+                "count": 0,
+                "name": "Vo Yeu Cua Anh"
+            },
+            {
+                "id": "61568443432899",
+                "count": 5,
+                "name": "ぴ・　ꔫ Trâm Anhꜝꜝ　ᗢ︒"
+            },
+            {
+                "id": "61572135665820",
+                "count": 14,
+                "name": "Anh Kiet"
+            },
+            {
+                "id": "61572607007168",
+                "count": 12,
+                "name": "Hân Tran"
+            },
+            {
+                "id": "61573768814331",
+                "count": 0,
+                "name": "Ph Gia Han"
+            },
+            {
+                "id": "61573936104305",
+                "count": 0,
+                "name": "Bảo Bảnh"
+            },
+            {
+                "id": "61574043307224",
+                "count": 0,
+                "name": "そNa cte ᶻz︒　︖"
+            },
+            {
+                "id": "61575306772770",
+                "count": 0,
+                "name": "Ngu Bot"
+            },
+            {
+                "id": "100000493975005",
+                "count": 0,
+                "name": "Nguyễn Đinh Tiến Dũng"
+            },
+            {
+                "id": "100013112775163",
+                "count": 29,
+                "name": "Đinh Trọng Hoài"
+            },
+            {
+                "id": "100015958666251",
+                "count": 3,
+                "name": "Phạm Minh Sang"
+            },
+            {
+                "id": "100048807344371",
+                "count": 0,
+                "name": "Hưng Cter"
+            },
+            {
+                "id": "100051326408408",
+                "count": 0,
+                "name": "Mat Ket Noi"
+            },
+            {
+                "id": "100051439970359",
+                "count": 104,
+                "name": "Quang Trung"
+            },
+            {
+                "id": "100060410386561",
+                "count": 0,
+                "name": "🫧 Thu Hiềnn 🪼"
+            },
+            {
+                "id": "100065893710232",
+                "count": 99,
+                "name": "Thanh Mai☘️🧸💕💚❣️💔💞💝🩷🩵💜💙🙀😹😿😫🤭"
+            },
+            {
+                "id": "100067827494573",
+                "count": 26,
+                "name": "Minh Truong"
+            },
+            {
+                "id": "100077632416025",
+                "count": 3,
+                "name": "Nguyễn Hoàng Duy"
+            },
+            {
+                "id": "100080280230629",
+                "count": 0,
+                "name": "Ngocc Tuann  🎧🧸💤"
+            },
+            {
+                "id": "100083750151956",
+                "count": 0,
+                "name": "Duc Anh"
+            },
+            {
+                "id": "100083782546067",
+                "count": 17,
+                "name": "Tran Bao Long"
+            },
+            {
+                "id": "100087606834399",
+                "count": 0,
+                "name": "🌪️ ʚʬʬHoangg'x Nhutt'z Rén'x War'zʬʬɞ 🍁"
+            },
+            {
+                "id": "100087885292897",
+                "count": 0,
+                "name": "Sain Su"
+            },
+            {
+                "id": "100091298757184",
+                "count": 0,
+                "name": "Mhunz Ng"
+            },
+            {
+                "id": "100013184707783",
+                "count": 18,
+                "name": "Chất Liệu Người Đẹp"
+            }
+        ],
+        "week": [
+            {
+                "id": "61550528673840",
+                "count": 7,
+                "name": "Đỗ Nguyễn Hữu Thắng"
+            },
+            {
+                "id": "61550859368874",
+                "count": 0,
+                "name": "Anth Nhật"
+            },
+            {
+                "id": "61551202621743",
+                "count": 5,
+                "name": "Ng Chienn Thangg 🦑💢"
+            },
+            {
+                "id": "61558219527956",
+                "count": 9,
+                "name": "Hải Yến"
+            },
+            {
+                "id": "61560636343050",
+                "count": 0,
+                "name": "Minh Khoi"
+            },
+            {
+                "id": "61566116851013",
+                "count": 0,
+                "name": "Ho Hen"
+            },
+            {
+                "id": "61566407567301",
+                "count": 20,
+                "name": "Hoangg Tuann"
+            },
+            {
+                "id": "61566807730469",
+                "count": 0,
+                "name": "Vo Yeu Cua Anh"
+            },
+            {
+                "id": "61568443432899",
+                "count": 17,
+                "name": "ぴ・　ꔫ Trâm Anhꜝꜝ　ᗢ︒"
+            },
+            {
+                "id": "61572135665820",
+                "count": 16,
+                "name": "Anh Kiet"
+            },
+            {
+                "id": "61572607007168",
+                "count": 12,
+                "name": "Hân Tran"
+            },
+            {
+                "id": "61573768814331",
+                "count": 1,
+                "name": "Ph Gia Han"
+            },
+            {
+                "id": "61573936104305",
+                "count": 0,
+                "name": "Bảo Bảnh"
+            },
+            {
+                "id": "61574043307224",
+                "count": 0,
+                "name": "そNa cte ᶻz︒　︖"
+            },
+            {
+                "id": "61575306772770",
+                "count": 0,
+                "name": "Ngu Bot"
+            },
+            {
+                "id": "100000493975005",
+                "count": 1,
+                "name": "Nguyễn Đinh Tiến Dũng"
+            },
+            {
+                "id": "100013112775163",
+                "count": 47,
+                "name": "Đinh Trọng Hoài"
+            },
+            {
+                "id": "100015958666251",
+                "count": 3,
+                "name": "Phạm Minh Sang"
+            },
+            {
+                "id": "100048807344371",
+                "count": 0,
+                "name": "Hưng Cter"
+            },
+            {
+                "id": "100051326408408",
+                "count": 0,
+                "name": "Mat Ket Noi"
+            },
+            {
+                "id": "100051439970359",
+                "count": 122,
+                "name": "Quang Trung"
+            },
+            {
+                "id": "100060410386561",
+                "count": 16,
+                "name": "🫧 Thu Hiềnn 🪼"
+            },
+            {
+                "id": "100065893710232",
+                "count": 131,
+                "name": "Thanh Mai☘️🧸💕💚❣️💔💞💝🩷🩵💜💙🙀😹😿😫🤭"
+            },
+            {
+                "id": "100067827494573",
+                "count": 66,
+                "name": "Minh Truong"
+            },
+            {
+                "id": "100077632416025",
+                "count": 3,
+                "name": "Nguyễn Hoàng Duy"
+            },
+            {
+                "id": "100080280230629",
+                "count": 0,
+                "name": "Ngocc Tuann  🎧🧸💤"
+            },
+            {
+                "id": "100083750151956",
+                "count": 0,
+                "name": "Duc Anh"
+            },
+            {
+                "id": "100083782546067",
+                "count": 36,
+                "name": "Tran Bao Long"
+            },
+            {
+                "id": "100087606834399",
+                "count": 0,
+                "name": "🌪️ ʚʬʬHoangg'x Nhutt'z Rén'x War'zʬʬɞ 🍁"
+            },
+            {
+                "id": "100087885292897",
+                "count": 0,
+                "name": "Sain Su"
+            },
+            {
+                "id": "100091298757184",
+                "count": 0,
+                "name": "Mhunz Ng"
+            },
+            {
+                "id": "100013184707783",
+                "count": 19,
+                "name": "Chất Liệu Người Đẹp"
+            },
+            {
+                "id": "61572250255278",
+                "count": 9,
+                "name": "Hao Anh"
+            },
+            {
+                "id": "61576955552109",
+                "count": 6,
+                "name": "Xi Xu Ba"
+            }
+        ]
+    }
+}

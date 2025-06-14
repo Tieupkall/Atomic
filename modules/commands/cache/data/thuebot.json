@@ -1,0 +1,21 @@
+[
+  {
+    "t_id": "24377793665160332",
+    "expiresAt": "2025-06-16T09:00:45.588Z",
+    "durationText": "3 ngày"
+  },
+  {
+    "t_id": "9607098859379525",
+    "expiresAt": "2025-07-14T02:04:03.291Z",
+    "durationText": "30 ngày"
+  },
+  {
+    "t_id": "6691735800885668",
+    "groupName": "Nhóm Test [ Goadbot, Bú]",
+    "expiresAt": "2025-06-15T15:30:20.982Z",
+    "createdAt": "2025-06-14T15:30:20.982Z",
+    "durationText": "1 ngày",
+    "durationDays": 1,
+    "durationMinutes": 0
+  }
+]
