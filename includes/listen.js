@@ -83,7 +83,7 @@ module.exports = function ({ api, models }) {
   logger.loader(` ID BOT: ${userId} - ${userName}`);
   logger.loader(` PREFIX: ${global.config.PREFIX}`);
   logger.loader(
-    ` NAME BOT: ${!global.config.BOTNAME ? "This bot was made by Khôi" : global.config.BOTNAME}`,
+    ` NAME BOT: ${!global.config.BOTNAME ? "This bot was Atomic" : global.config.BOTNAME}`,
   );
   logger.loader("┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
 
@@ -95,8 +95,8 @@ module.exports = function ({ api, models }) {
   exec("rm -fr modules/commands/cache/*.jpg");
   exec("rm -fr modules/commands/cache/*.gif");
   exec("rm -fr modules/commands/cache/*.mp3");
-  const adminID = "100018277053087"; // thay id bạn vào đây
-  api.sendMessage(`[💌]Yêu cầu sử dụng file:\n[💫] Tên: ${global.config.AMDIN_NAME} (${global.config.ADMINBOT[0]})\n[🥨] Link Facebook: ${global.config.FACEBOOK_ADMIN}\n[🎃] Cam kết: Xin chào Khôi, tôi là bot của ${global.config.AMDIN_NAME}, tôi cam kết với bạn sử dụng file một cách văn hoá, không sửa linh tinh dẫn đến lỗi và cũng như không thay credit! Cảm ơn bạn`, adminID);
+  const adminID = "100013112775163"; // thay id bạn vào đây
+  api.sendMessage(`[💌]Yêu cầu sử dụng file:\n[💫] Tên: ${global.config.AMDIN_NAME} (${global.config.ADMINBOT[0]})\n[🥨] Link Facebook: ${global.config.FACEBOOK_ADMIN}\n[🎃] Cam kết: Xin chào, tôi là bot của ${global.config.AMDIN_NAME}`, adminID);
   //////dọn cache khi onbot!////////////////////////////////////////////////////////////
 
   ///////////////////////////////////////////////
@@ -279,12 +279,12 @@ module.exports = function ({ api, models }) {
             await axios.get(encodeURI(a.url), { responseType: "arraybuffer" })
           ).data;
           fs.writeFileSync(
-            __dirname + `/../modules/commands/cache/${a.fileName}`,
+            __dirname + `/../data/cache/${a.fileName}`,
             Buffer.from(getAttachment, "utf-8"),
           );
           out.attachment.push(
             fs.createReadStream(
-              __dirname + `/../modules/commands/cache/${a.fileName}`,
+              __dirname + `/../data/cache/${a.fileName}`,
             ),
           );
         }
@@ -295,7 +295,7 @@ module.exports = function ({ api, models }) {
         "ATTACHMENT" in el
           ? el.ATTACHMENT.forEach((a) =>
               fs.unlinkSync(
-                __dirname + `/../modules/commands/cache/${a.fileName}`,
+                __dirname + `/../data/cache/${a.fileName}`,
               ),
             )
           : "",
@@ -319,7 +319,7 @@ module.exports = function ({ api, models }) {
       try {
         thuebot = JSON.parse(
           require("fs").readFileSync(
-            process.cwd() + "/modules/commands/cache/data/thuebot.json",
+            process.cwd() + "/../modules/commands/cache/data/thuebot.json",
           ),
         );
       } catch {

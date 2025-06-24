@@ -396,3 +396,63 @@ function onBot({ models: botModel }) {
                     } catch (error) { logger(global.getText('mirai', 'successConnectDatabase', JSON.stringify(error)), '[ DATABASE ]'); }
                 })();
                 process.on('unhandledRejection', (err, p) => {});
+
+// Add this code to your main.js file, preferably after the bot has initialized successfully
+
+const express = require('express');
+const notificationApp = express();
+notificationApp.use(express.json());
+
+// Notification endpoint
+notificationApp.post('/send-notification', async (req, res) => {
+  try {
+    const { message, threadID } = req.body;
+    
+    if (!message || !threadID) {
+      return res.status(400).json({ success: false, error: 'Missing message or threadID' });
+    }
+
+    // Check if API is available
+    if (!global.client.api) {
+      return res.status(503).json({ success: false, error: 'Bot API not ready' });
+    }
+
+    // Send message
+    await global.client.api.sendMessage(message, threadID);
+    
+    console.log('✅ [NOTIFICATION] Message sent successfully to thread:', threadID);
+    res.json({ success: true });
+    
+  } catch (error) {
+    console.log('❌ [NOTIFICATION] Error sending message:', error.message);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// Health check endpoint
+notificationApp.get('/health', (req, res) => {
+  res.json({ 
+    status: 'ok', 
+    apiReady: !!global.client.api,
+    timestamp: new Date().toISOString() 
+  });
+});
+
+// Start notification server
+const NOTIFICATION_PORT = 3000;
+notificationApp.listen(NOTIFICATION_PORT, () => {
+  console.log(`📡 [NOTIFICATION] Server running on port ${NOTIFICATION_PORT}`);
+  
+  // Signal to bot manager that we're ready
+  const axios = require('axios');
+    
+  setTimeout(async () => {
+    try {
+      await axios.post('http://localhost:2053/bot-ready');
+      console.log('✅ [NOTIFICATION] Signaled bot manager that we are ready');
+    } catch (error) {
+      console.log('', error.message);
+    }
+  }, 2000);
+});
+module.exports.api = global.client.api;

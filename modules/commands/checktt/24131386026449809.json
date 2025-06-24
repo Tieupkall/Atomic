@@ -312,7 +312,7 @@
     "day": [
         {
             "id": "61550528673840",
-            "count": 4,
+            "count": 0,
             "name": "Đỗ Nguyễn Hữu Thắng"
         },
         {
@@ -322,12 +322,12 @@
         },
         {
             "id": "61551202621743",
-            "count": 4,
+            "count": 0,
             "name": "Ng Chienn Thangg 🦑💢"
         },
         {
             "id": "61558219527956",
-            "count": 9,
+            "count": 0,
             "name": "Hải Yến"
         },
         {
@@ -342,7 +342,7 @@
         },
         {
             "id": "61566407567301",
-            "count": 3,
+            "count": 0,
             "name": "Hoangg Tuann"
         },
         {
@@ -352,12 +352,12 @@
         },
         {
             "id": "61568443432899",
-            "count": 12,
+            "count": 0,
             "name": "ぴ・　ꔫ Trâm Anhꜝꜝ　ᗢ︒"
         },
         {
             "id": "61572135665820",
-            "count": 2,
+            "count": 0,
             "name": "Anh Kiet"
         },
         {
@@ -367,7 +367,7 @@
         },
         {
             "id": "61573768814331",
-            "count": 1,
+            "count": 0,
             "name": "Ph Gia Han"
         },
         {
@@ -387,12 +387,12 @@
         },
         {
             "id": "100000493975005",
-            "count": 1,
+            "count": 0,
             "name": "Nguyễn Đinh Tiến Dũng"
         },
         {
             "id": "100013112775163",
-            "count": 18,
+            "count": 0,
             "name": "Đinh Trọng Hoài"
         },
         {
@@ -408,26 +408,26 @@
         {
             "id": "100051326408408",
             "count": 0,
-            "name": "Mat Ket Noi"
+            "name": "Trương Thị HLinh"
         },
         {
             "id": "100051439970359",
-            "count": 18,
+            "count": 0,
             "name": "Quang Trung"
         },
         {
             "id": "100060410386561",
-            "count": 16,
+            "count": 0,
             "name": "🫧 Thu Hiềnn 🪼"
         },
         {
             "id": "100065893710232",
-            "count": 32,
+            "count": 0,
             "name": "Thanh Mai☘️🧸💕💚❣️💔💞💝🩷🩵💜💙🙀😹😿😫🤭"
         },
         {
             "id": "100067827494573",
-            "count": 40,
+            "count": 0,
             "name": "Minh Truong"
         },
         {
@@ -447,7 +447,7 @@
         },
         {
             "id": "100083782546067",
-            "count": 19,
+            "count": 0,
             "name": "Tran Bao Long"
         },
         {
@@ -467,16 +467,18 @@
         },
         {
             "id": "100013184707783",
-            "count": 1,
+            "count": 0,
             "name": "Chất Liệu Người Đẹp"
         },
         {
             "id": "61572250255278",
-            "count": 9
+            "count": 0,
+            "name": "Hao Anh"
         },
         {
             "id": "61576955552109",
-            "count": 6
+            "count": 0,
+            "name": "Xi Xu Ba"
         }
     ],
     "time": 0,
@@ -485,7 +487,7 @@
         "day": [
             {
                 "id": "61550528673840",
-                "count": 3,
+                "count": 0,
                 "name": "Đỗ Nguyễn Hữu Thắng"
             },
             {
@@ -495,7 +497,7 @@
             },
             {
                 "id": "61551202621743",
-                "count": 1,
+                "count": 0,
                 "name": "Ng Chienn Thangg 🦑💢"
             },
             {
@@ -515,7 +517,7 @@
             },
             {
                 "id": "61566407567301",
-                "count": 17,
+                "count": 0,
                 "name": "Hoangg Tuann"
             },
             {
@@ -525,17 +527,17 @@
             },
             {
                 "id": "61568443432899",
-                "count": 5,
+                "count": 0,
                 "name": "ぴ・　ꔫ Trâm Anhꜝꜝ　ᗢ︒"
             },
             {
                 "id": "61572135665820",
-                "count": 14,
+                "count": 0,
                 "name": "Anh Kiet"
             },
             {
                 "id": "61572607007168",
-                "count": 12,
+                "count": 0,
                 "name": "Hân Tran"
             },
             {
@@ -565,12 +567,12 @@
             },
             {
                 "id": "100013112775163",
-                "count": 29,
+                "count": 0,
                 "name": "Đinh Trọng Hoài"
             },
             {
                 "id": "100015958666251",
-                "count": 3,
+                "count": 0,
                 "name": "Phạm Minh Sang"
             },
             {
@@ -581,11 +583,11 @@
             {
                 "id": "100051326408408",
                 "count": 0,
-                "name": "Mat Ket Noi"
+                "name": "Trương Thị HLinh"
             },
             {
                 "id": "100051439970359",
-                "count": 104,
+                "count": 0,
                 "name": "Quang Trung"
             },
             {
@@ -595,17 +597,17 @@
             },
             {
                 "id": "100065893710232",
-                "count": 99,
+                "count": 0,
                 "name": "Thanh Mai☘️🧸💕💚❣️💔💞💝🩷🩵💜💙🙀😹😿😫🤭"
             },
             {
                 "id": "100067827494573",
-                "count": 26,
+                "count": 0,
                 "name": "Minh Truong"
             },
             {
                 "id": "100077632416025",
-                "count": 3,
+                "count": 0,
                 "name": "Nguyễn Hoàng Duy"
             },
             {
@@ -620,7 +622,7 @@
             },
             {
                 "id": "100083782546067",
-                "count": 17,
+                "count": 0,
                 "name": "Tran Bao Long"
             },
             {
@@ -640,8 +642,18 @@
             },
             {
                 "id": "100013184707783",
-                "count": 18,
+                "count": 0,
                 "name": "Chất Liệu Người Đẹp"
+            },
+            {
+                "id": "61572250255278",
+                "count": 0,
+                "name": "Hao Anh"
+            },
+            {
+                "id": "61576955552109",
+                "count": 0,
+                "name": "Xi Xu Ba"
             }
         ],
         "week": [

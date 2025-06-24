@@ -9,7 +9,7 @@ module.exports.config = {
   credits: "Atomic",
   description: "Check tương tác, xếp hạng, reset dữ liệu nhóm",
   commandCategory: "Thành Viên",
-  usages: "[all/day/week/list/reset <threadID>]",
+  usages: "[all/day/week/list/reset]",
   cooldowns: 0
 };
 
@@ -17,7 +17,7 @@ module.exports.run = async function({ api, event, args, Threads, Users }) {
   const { threadID, messageID, senderID } = event;
   const query = args[0] ? args[0].toLowerCase() : '';
   const send = (msg) => api.sendMessage(msg, threadID, (err, info) => {
-    if (!err) setTimeout(() => api.unsendMessage(info.messageID), 15000);
+    if (!err) setTimeout(() => api.unsendMessage(info.messageID), 90000);
   }, messageID);
 
   if (['all', 'day', 'week'].includes(query)) {
@@ -68,7 +68,7 @@ module.exports.run = async function({ api, event, args, Threads, Users }) {
           author: senderID,
           users: list
         });
-        setTimeout(() => api.unsendMessage(info.messageID), 15000);
+        setTimeout(() => api.unsendMessage(info.messageID), 90000);
       }
     }, messageID);
   }
@@ -124,8 +124,8 @@ module.exports.run = async function({ api, event, args, Threads, Users }) {
     }, messageID);
   }
 
-  if (query === 'reset' && args[1]) {
-    const targetID = args[1];
+  if (query === 'reset') {
+  const targetID = threadID;
     const filePath = path + targetID + ".json";
     if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
 
@@ -160,7 +160,7 @@ module.exports.run = async function({ api, event, args, Threads, Users }) {
     `• check day → Tương tác hôm nay\n` +
     `• check week → Tương tác tuần\n` +
     `• check list → Xem nhóm (admin bot)\n` +
-    `• check reset <threadID> → Reset dữ liệu nhóm`
+    `• check reset → Reset dữ liệu nhóm hiện tại`
   );
 };
 

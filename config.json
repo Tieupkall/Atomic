@@ -16,7 +16,7 @@
     ],
     "autoClean": true,
     "ACCESSTOKEN": "",
-    "BOTNAME": "Atomic",
+    "BOTNAME": "atomic",
     "AMDIN_NAME": "Atomic",
     "FACEBOOK_ADMIN": "https://www.facebook.com/dthuwu",
     "PREFIX": ".",
@@ -58,7 +58,7 @@
     "anti": {
         "autoUnsend": true,
         "sendNoti": true,
-        "timeToUnsend": 10
+        "timeToUnsend": 30
     },
     "adminOnly": false,
     "loto": {

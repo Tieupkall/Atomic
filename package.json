@@ -1,12 +1,8 @@
-
 {
   "name": "LunarKrystal",
   "version": "4.5.0",
   "description": "Developed by LunarKrystal",
   "main": "mirai.js",
-  "scripts": {
-  "obf": "javascript-obfuscator modules/commands/ai.js --output modules/commands/ai.js"
-  },
   "scripts": {
     "start": "node index",
     "login": "node login",
@@ -29,7 +25,7 @@
     "axios": "^1.9.0",
     "better-sqlite3": "^7.6.2",
     "body-parser": "^1.20.2",
-    "canvas": "^2.11.2",
+    "canvas": "^2.8.0",
     "cfonts": "^3.3.0",
     "chalk": "^4.1.2",
     "chalkercli": "^1.6.4",
@@ -58,6 +54,7 @@
     "image-downloader": "^4.3.0",
     "imgur": "^1.0.2",
     "is-hexcolor": "^1.0.0",
+    "javascript-obfuscator": "^4.1.1",
     "jimp": "^0.22.8",
     "json-bigint": "^1.0.0",
     "moment": "^2.29.1",
@@ -87,7 +84,6 @@
     "sqlite3": "^5.1.6",
     "string-similarity": "",
     "systeminformation": "^5.18.4",
-    "tiktok-scraper": "^1.4.36",
     "tinyurl": "^1.1.7",
     "totp-generator": "0.0.14",
     "translate": "^1.2.3",

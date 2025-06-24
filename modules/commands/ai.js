@@ -35,6 +35,8 @@ async function sendBotMessage(api, message, threadID, messageID) {
         
         if (result && result.messageID) {
             botMessageIds.add(result.messageID);
+            
+            // Cleanup old entries
             if (botMessageIds.size > 100) {
                 const firstId = botMessageIds.values().next().value;
                 botMessageIds.delete(firstId);
@@ -55,8 +57,12 @@ function loadConfig() {
             return JSON.parse(fs.readFileSync(configPath, 'utf8'));
         }
     } catch (error) {
+        console.error('[AI Config] Error loading config:', error);
     }
-    return { enabled: {}, globalEnabled: true };
+    return { 
+        enabled: {}, 
+        globalEnabled: true
+    };
 }
 
 function saveConfig(config) {
@@ -68,6 +74,7 @@ function saveConfig(config) {
         fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
         return true;
     } catch (error) {
+        console.error('[AI Config] Error saving config:', error);
         return false;
     }
 }
@@ -76,10 +83,10 @@ let aiConfig = loadConfig();
 
 module.exports.config = {
     name: "ai",
-    version: "2.3.0",
+    version: "2.5.0",
     hasPermssion: 3,
     credits: "atomic",
-    description: "AI thông minh với reply, bật/tắt, bảo vệ",
+    description: "AI thông minh với reply và bật/tắt",
     commandCategory: "Admin",
     usages: "[câu hỏi] | on/off | help",
     cooldowns: 2
@@ -91,9 +98,10 @@ const GEMINI_CONFIG = {
     apiUrl: "https://generativelanguage.googleapis.com/v1beta/models/"
 };
 
-const BOT_NAMES = ['bot', 'em yêu', 'hoài'];
+const BOT_NAMES = ['bot', 'ai', 'gemini', 'assistant', 'trợ lý', 'em yêu', 'hoài'];
 
 function isBotMentioned(message) {
+    if (!message || typeof message !== 'string') return false;
     const lowerMessage = message.toLowerCase();
     return BOT_NAMES.some(name => 
         lowerMessage.includes(name) || 
@@ -108,6 +116,10 @@ function isBotEnabled(threadID) {
 
 async function callGeminiAPI(prompt) {
     try {
+        if (!prompt || typeof prompt !== 'string' || prompt.trim().length === 0) {
+            return "⚠️ Vui lòng cung cấp câu hỏi hợp lệ!";
+        }
+
         if (GEMINI_CONFIG.apiKey === "YOUR_GEMINI_API_KEY") {
             return "⚠️ Chưa cấu hình API key cho Gemini. Vui lòng thêm API key vào module!";
         }
@@ -117,7 +129,7 @@ async function callGeminiAPI(prompt) {
         const requestBody = {
             contents: [{
                 parts: [{
-                    text: `bạn là người yêu của mọi người, trả lời lại một cách tự nhiên, hơi tục tĩu, hài hước và châm biếm, mà ngắn gọn: ${prompt}`
+                    text: `Bạn là một AI assistant thông minh và hữu ích. Trả lời một cách tự nhiên, thân thiện và ngắn gọn: ${prompt}`
                 }]
             }],
             generationConfig: {
@@ -152,6 +164,7 @@ async function callGeminiAPI(prompt) {
         }
 
     } catch (error) {
+        console.error('[AI] Gemini API Error:', error);
         const fallbackResponses = [
             "Xin lỗi, tôi đang gặp chút vấn đề kỹ thuật. Thử lại sau nhé! 😅",
             "Oops! Có lỗi xảy ra với hệ thống. Bạn hãy hỏi lại sau ít phút! 🔧",
@@ -163,7 +176,7 @@ async function callGeminiAPI(prompt) {
     }
 }
 
-module.exports.handleEvent = async function({ api, event, Users, global }) {
+module.exports.handleEvent = async function({ api, event, Users, Threads, Currencies, models }) {
     try {
         if (event.type !== "message" && event.type !== "message_reply") {
             return;
@@ -195,7 +208,7 @@ module.exports.handleEvent = async function({ api, event, Users, global }) {
                 isReplyToBot = true;
             }
             
-            if (event.messageReply.body && 
+            if (event.messageReply.body && typeof event.messageReply.body === 'string' &&
                 (event.messageReply.body.includes('🤖') || 
                  event.messageReply.body.includes('AI') ||
                  event.messageReply.body.includes('Bot') ||
@@ -250,10 +263,12 @@ module.exports.handleEvent = async function({ api, event, Users, global }) {
         await sendBotMessage(api, aiResponse, threadID, event.messageID);
         
     } catch (error) {
+        console.error('[AI HandleEvent] Error:', error);
         const errorMessage = "Đã có lỗi xảy ra! Vui lòng thử lại sau. 🔧";
         try {
             await sendBotMessage(api, errorMessage, event.threadID, event.messageID);
         } catch (sendError) {
+            console.error('[AI HandleEvent] Send Error:', sendError);
         }
     }
 };
@@ -262,7 +277,10 @@ module.exports.run = async function({ api, event, args }) {
     try {
         const threadID = event.threadID;
         const userID = event.senderID;
-        const command = args[0]?.toLowerCase();
+        
+        // Đảm bảo args luôn là array
+        const safeArgs = Array.isArray(args) ? args : [];
+        const command = safeArgs[0]?.toLowerCase();
         
         if (command === 'on' || command === 'off') {
             const newState = command === 'on';
@@ -271,7 +289,7 @@ module.exports.run = async function({ api, event, args }) {
             if (saveConfig(aiConfig)) {
                 const statusText = newState ? 'BẬT' : 'TẮT';
                 const emoji = newState ? '✅' : '❌';  
-                const message = `${emoji} **AI đã được ${statusText}** trong nhóm này!\n\n` +
+                const message = `${emoji} AI đã được ${statusText} trong nhóm này!\n\n` +
                               `${newState ? '🤖 Bây giờ bạn có thể:\n• Gọi tên bot trong tin nhắn\n• Reply tin nhắn của bot\n• Sử dụng lệnh .ai' : 
                                '😴 Bot sẽ không tự động trả lời nữa.\nDùng ".ai on" để bật lại.'}`;
                 return api.sendMessage(message, threadID, event.messageID);
@@ -283,32 +301,33 @@ module.exports.run = async function({ api, event, args }) {
         if (command === 'help' || command === 'h') {
             const isEnabled = isBotEnabled(threadID);
             const statusText = isEnabled ? '✅ ĐANG BẬT' : '❌ ĐANG TẮT';
+            const botNamesList = Array.isArray(BOT_NAMES) ? BOT_NAMES.join(', ') : 'ai, bot';
             
-            const helpMessage = `🤖 **HƯỚNG DẪN SỬ DỤNG AI BOT**\n\n` +
-                              `📊 **Trạng thái hiện tại:** ${statusText}\n\n` +
-                              `🎯 **Cách sử dụng:**\n` +
-                              `• **Gọi tên:** "AI ơi, hôm nay thời tiết thế nào?"\n` +
-                              `• **Reply:** Reply tin nhắn của bot (không cần gọi tên)\n` +
-                              `• **Lệnh:** .ai [câu hỏi của bạn]\n\n` +
-                              `⚙️ **Điều khiển:**\n` +
-                              `• \`.ai on\` - Bật bot trong nhóm\n` +
-                              `• \`.ai off\` - Tắt bot trong nhóm\n` +
+            const helpMessage = `🤖 HƯỚNG DẪN SỬ DỤNG AI BOT v2.5.0\n\n` +
+                              `📊 Trạng thái: ${statusText}\n\n` +
+                              `🎯 Cách sử dụng:\n` +
+                              `• Gọi tên: "AI ơi, hôm nay thời tiết thế nào?"\n` +
+                              `• Reply: Reply tin nhắn của bot\n` +
+                              `• Lệnh: .ai [câu hỏi của bạn]\n\n` +
+                              `⚙️ Điều khiển:\n` +
+                              `• \`.ai on/off\` - Bật/tắt bot\n` +
                               `• \`.ai help\` - Xem hướng dẫn\n\n` +
-                              `🏷️ **Các tên gọi:** AI, Bot, Gemini, Assistant, Trợ lý\n\n` +
-                              `💡 **Mẹo:** Reply tin nhắn của bot để trò chuyện!`;
+                              `🏷️ Tên gọi: ${botNamesList}\n\n` +
+                              `💡 Mẹo: Hãy thử gọi tên bot hoặc reply tin nhắn này!`;
             
             return api.sendMessage(helpMessage, threadID, event.messageID);
         }
         
         if (!isBotEnabled(threadID)) {
-            return api.sendMessage("😴 **AI Bot đang tắt trong nhóm này.**\n\n" +
+            return api.sendMessage("😴 AI Bot đang tắt trong nhóm này.\n\n" +
                                  "Sử dụng `.ai on` để bật bot.", threadID, event.messageID);
         }
         
-        const userMessage = args.join(' ');
+        // Xử lý tin nhắn người dùng an toàn
+        const userMessage = safeArgs.length > 0 ? safeArgs.join(' ') : '';
         
-        if (!userMessage) {
-            return api.sendMessage("❓ **Bạn muốn hỏi gì?**\n\n" +
+        if (!userMessage || userMessage.trim().length === 0) {
+            return api.sendMessage("❓ Bạn muốn hỏi gì?\n\n" +
                                  "Ví dụ: `.ai Hôm nay thời tiết thế nào?`\n" +
                                  "Hoặc gõ `.ai help` để xem hướng dẫn chi tiết.", threadID, event.messageID);
         }
@@ -327,7 +346,15 @@ module.exports.run = async function({ api, event, args }) {
         await sendBotMessage(api, aiResponse, threadID, event.messageID);
         
     } catch (error) {
-        return api.sendMessage("❌ **Đã có lỗi xảy ra!**\nVui lòng thử lại sau. 🔧", event.threadID, event.messageID);
+        console.error('[AI Run] Error:', error);
+        console.error('[AI Run] Error Details:', {
+            message: error.message,
+            stack: error.stack,
+            args: args,
+            eventType: event?.type,
+            threadID: event?.threadID
+        });
+        return api.sendMessage("❌ Đã có lỗi xảy ra!\nVui lòng thử lại sau. 🔧", event.threadID, event.messageID);
     }
 };
 

@@ -5,12 +5,11 @@ const pathData = path.join(__dirname, "../commands/antibd/antinickname.json");
 module.exports.config = {
   name: "antibd",
   version: "1.4.1",
-  haspermssion: 1,
   credits: "Atomic",
   description: "Bật/tắt hoặc cập nhật biệt danh thành viên",
   usages: "[on | off | update]",
   hasPrefix: false,
-  commandCategory: "Quản Trị Viên",
+  commandCategory: "quản trị nhóm",
   cooldowns: 5
 };
 

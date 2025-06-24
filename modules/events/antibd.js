@@ -6,7 +6,7 @@ module.exports.config = {
     name: "antibd",
     eventType: ["log:user-nickname"],
     version: "1.0.6",
-    credits: "atomic + chỉnh bởi ChatGPT",
+    credits: "atomic",
     description: "Ngăn đổi biệt danh trái phép, kể cả admin bot.",
 };
 

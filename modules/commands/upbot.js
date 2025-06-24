@@ -5,10 +5,10 @@ const moment = require("moment-timezone");
 module.exports.config = {
   name: "upbot",
   version: "1.2.7",
-  hasPermssion: 3,
+  hasPermssion: 0,
   credits: "Atomic",
   description: "Hiển thị thông tin bot và đồng bộ tên bot kèm thời gian thuê",
-  commandCategory: "Admin",
+  commandCategory: "Hệ thống",
   usages: "[+ sync]",
   cooldowns: 5
 };
