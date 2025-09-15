@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "posts": [],
+  "settings": {
+    "maxPostsPerDay": 10,
+    "delayBetweenPosts": 2000
+  },
+  "history": []
+}

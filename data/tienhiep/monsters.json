@@ -1,0 +1,37 @@
+
+[
+  { "name": "Huyết Lang", "beastLevel": "Phàm Thú", "phase": "Sơ Kỳ", "minLevel": 4, "exp": 50, "dropRate": 0.5, "hp": 50, "attack": 5 },
+  { "name": "Thiết Giáp Thú", "beastLevel": "Phàm Thú", "phase": "Trung Kỳ", "minLevel": 5, "exp": 80, "dropRate": 0.5, "hp": 80, "attack": 8 },
+  { "name": "Âm Hồn", "beastLevel": "Phàm Thú", "phase": "Hậu Kỳ", "minLevel": 6, "exp": 120, "dropRate": 0.6, "hp": 120, "attack": 12 },
+  { "name": "Kim Sí Điểu", "beastLevel": "Phàm Thú", "phase": "Viên Mãn", "minLevel": 7, "exp": 150, "dropRate": 0.6, "hp": 150, "attack": 15 },
+  
+  { "name": "Xích Diệm Ma Hầu", "beastLevel": "Yêu Thú", "phase": "Sơ Kỳ", "minLevel": 8, "exp": 200, "dropRate": 0.7, "hp": 200, "attack": 20 },
+  { "name": "Băng Tinh Sói", "beastLevel": "Yêu Thú", "phase": "Trung Kỳ", "minLevel": 9, "exp": 250, "dropRate": 0.7, "hp": 250, "attack": 25 },
+  { "name": "Lôi Điển Báo", "beastLevel": "Yêu Thú", "phase": "Hậu Kỳ", "minLevel": 10, "exp": 300, "dropRate": 0.75, "hp": 300, "attack": 30 },
+  { "name": "Phong Ảnh Ưng", "beastLevel": "Yêu Thú", "phase": "Viên Mãn", "minLevel": 11, "exp": 350, "dropRate": 0.75, "hp": 350, "attack": 35 },
+  
+  { "name": "Long Hồn", "beastLevel": "Linh Thú", "phase": "Sơ Kỳ", "minLevel": 12, "exp": 450, "dropRate": 0.8, "hp": 450, "attack": 45 },
+  { "name": "Phượng Hoàng", "beastLevel": "Linh Thú", "phase": "Trung Kỳ", "minLevel": 13, "exp": 550, "dropRate": 0.8, "hp": 550, "attack": 55 },
+  { "name": "Kỳ Lân", "beastLevel": "Linh Thú", "phase": "Hậu Kỳ", "minLevel": 14, "exp": 650, "dropRate": 0.85, "hp": 650, "attack": 65 },
+  { "name": "Huyền Vũ", "beastLevel": "Linh Thú", "phase": "Viên Mãn", "minLevel": 15, "exp": 750, "dropRate": 0.85, "hp": 750, "attack": 75 },
+  
+  { "name": "Cửu Vĩ Hồ", "beastLevel": "Thánh Thú", "phase": "Sơ Kỳ", "minLevel": 16, "exp": 900, "dropRate": 0.9, "hp": 900, "attack": 90 },
+  { "name": "Thái Cổ Long", "beastLevel": "Thánh Thú", "phase": "Trung Kỳ", "minLevel": 17, "exp": 1100, "dropRate": 0.9, "hp": 1100, "attack": 110 },
+  { "name": "Hỗn Độn Thú", "beastLevel": "Thánh Thú", "phase": "Hậu Kỳ", "minLevel": 18, "exp": 1300, "dropRate": 0.9, "hp": 1300, "attack": 130 },
+  { "name": "Thần Rồng", "beastLevel": "Thánh Thú", "phase": "Viên Mãn", "minLevel": 19, "exp": 1500, "dropRate": 0.95, "hp": 1500, "attack": 150 },
+  
+  { "name": "Ma Vương", "beastLevel": "Yêu Vương", "phase": "Sơ Kỳ", "minLevel": 20, "exp": 1800, "dropRate": 0.95, "hp": 1800, "attack": 180 },
+  { "name": "Địa Ngục Quỷ Vương", "beastLevel": "Yêu Vương", "phase": "Trung Kỳ", "minLevel": 21, "exp": 2200, "dropRate": 0.95, "hp": 2200, "attack": 220 },
+  { "name": "Thiên Ma Hoàng", "beastLevel": "Yêu Vương", "phase": "Hậu Kỳ", "minLevel": 22, "exp": 2600, "dropRate": 0.95, "hp": 2600, "attack": 260 },
+  { "name": "Tuyệt Thế Yêu Vương", "beastLevel": "Yêu Vương", "phase": "Viên Mãn", "minLevel": 23, "exp": 3000, "dropRate": 0.98, "hp": 3000, "attack": 300 },
+  
+  { "name": "Thái Thượng Yêu Đế", "beastLevel": "Yêu Đế", "phase": "Sơ Kỳ", "minLevel": 24, "exp": 3500, "dropRate": 0.98, "hp": 3500, "attack": 350 },
+  { "name": "Hỗn Thiên Yêu Đế", "beastLevel": "Yêu Đế", "phase": "Trung Kỳ", "minLevel": 25, "exp": 4200, "dropRate": 0.98, "hp": 4200, "attack": 420 },
+  { "name": "Vô Cực Yêu Đế", "beastLevel": "Yêu Đế", "phase": "Hậu Kỳ", "minLevel": 26, "exp": 5000, "dropRate": 0.98, "hp": 5000, "attack": 500 },
+  { "name": "Tối Cường Yêu Đế", "beastLevel": "Yêu Đế", "phase": "Viên Mãn", "minLevel": 27, "exp": 6000, "dropRate": 1.0, "hp": 6000, "attack": 600 },
+  
+  { "name": "Thái Cổ Thần Thú", "beastLevel": "Thần Thú", "phase": "Sơ Kỳ", "minLevel": 28, "exp": 7500, "dropRate": 1.0, "hp": 7500, "attack": 750 },
+  { "name": "Hỗn Độn Thần Thú", "beastLevel": "Thần Thú", "phase": "Trung Kỳ", "minLevel": 29, "exp": 9000, "dropRate": 1.0, "hp": 9000, "attack": 900 },
+  { "name": "Vô Thượng Thần Thú", "beastLevel": "Thần Thú", "phase": "Hậu Kỳ", "minLevel": 30, "exp": 12000, "dropRate": 1.0, "hp": 12000, "attack": 1200 },
+  { "name": "Tối Cao Thần Thú", "beastLevel": "Thần Thú", "phase": "Viên Mãn", "minLevel": 31, "exp": 15000, "dropRate": 1.0, "hp": 15000, "attack": 1500 }
+]

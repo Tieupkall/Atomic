@@ -1,0 +1,33 @@
+{
+  "experience": {
+    "baseExp": 100,
+    "multiplier": 1.5
+  },
+  "combat": {
+    "basePlayerHp": 100,
+    "hpPerLevel": 20,
+    "baseSpiritPower": 100,
+    "spiritPowerPerLevel": 10,
+    "spiritPowerCostPerHunt": 15,
+    "spiritPowerRecoveryTime": 60000,
+    "spiritPowerRecoveryAmount": 10
+  },
+  "defaultPlayer": {
+    "name": "TuChânGiả",
+    "level": 0,
+    "exp": 0,
+    "hp": 100,
+    "maxHp": 100,
+    "spiritPower": 100,
+    "maxSpiritPower": 100,
+    "inventory": [],
+    "materials": [],
+    "spiritStones": 0,
+    "monsterLog": {},
+    "settings": {
+      "autoSell": false,
+      "showDetailedStats": true,
+      "language": "vi"
+    }
+  }
+}

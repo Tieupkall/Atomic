@@ -1,0 +1,70 @@
+
+{
+  "mainMenu": {
+    "title": "🗡️ ĐẠO GIỚI TU TIÊN",
+    "options": [
+      {
+        "id": "1",
+        "name": "⚔️ Đánh quái",
+        "description": "Tiêu diệt quái vật để nhận exp và trang bị",
+        "commands": ["đánh", "đánh quái", "quái"]
+      },
+      {
+        "id": "2",
+        "name": "🏪 Đan các",
+        "description": "Cửa hàng vật liệu và luyện đan",
+        "commands": ["đan các", "shop"]
+      },
+      {
+        "id": "3",
+        "name": "📦 Kho đồ",
+        "description": "Xem và quản lý vật phẩm trong kho",
+        "commands": ["kho", "kho đồ", "inventory"]
+      },
+      {
+        "id": "4",
+        "name": "⚡ Độ kiếp",
+        "description": "Vượt qua lôi kiếp để lên cảnh giới mới",
+        "commands": ["độ kiếp", "kiếp", "tribulation"]
+      },
+      {
+        "id": "5",
+        "name": "🧘 Tu luyện",
+        "description": "Tu luyện bằng linh thạch để tăng kinh nghiệm",
+        "commands": ["tu luyện", "tu"]
+      },
+      {
+        "id": "6",
+        "name": "🔥 Luyện khí",
+        "description": "Nâng cấp vũ khí bằng linh thạch",
+        "commands": ["luyenkhi", "luyện khí"]
+      },
+      {
+        "id": "7",
+        "name": "🏆 Bảng phong thần",
+        "description": "Xem bảng xếp hạng tu tiên",
+        "commands": ["top", "bảng xếp hạng"]
+      },
+      {
+        "id": "8",
+        "name": "👤 Thông tin nhân vật",
+        "description": "Xem thông tin chi tiết về nhân vật của bạn",
+        "commands": ["thông tin", "info", "nhân vật"]
+      }
+    ]
+  },
+  "help": {
+    "title": "💡 HƯỚNG DẪN SỬ DỤNG",
+    "usage": "Gõ .tu [số] hoặc .tu [tên lệnh] để sử dụng",
+    "examples": [
+      ".tu 1 - Đánh quái để nhận kinh nghiệm",
+      ".tu 2 - Vào đan các để mua vật liệu và luyện đan",
+      ".tu 3 - Xem kho đồ và sử dụng vật phẩm",
+      ".tu 4 - Độ kiếp khi đạt Viên Mãn",
+      ".tu 5 - Tu luyện bằng linh thạch",
+      ".tu 6 - Luyện khí để nâng cấp vũ khí",
+      ".tu 7 - Xem bảng xếp hạng",
+      ".tu 8 - Xem thông tin nhân vật chi tiết"
+    ]
+  }
+}

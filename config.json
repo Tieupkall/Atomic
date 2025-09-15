@@ -1,0 +1,96 @@
+{
+    "language": "vi",
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "MAINTENANCE_MODE": false,
+    "iconUnsend": {
+        "status": true,
+        "icon": "❤"
+    },
+    "notiGroup": true,
+    "NOTIFICATION": true,
+    "allowInbox": true,
+    "commandDisabled": [
+        ""
+    ],
+    "eventDisabled": [
+        ""
+    ],
+    "autoClean": true,
+    "autoLogin": {
+        "enabled": true,
+        "retryAttempts": 3,
+        "retryDelay": 5000
+    },
+    "ACCESSTOKEN": "",
+    "BOTNAME": "Atomic",
+    "AMDIN_NAME": "Atomic",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/100013112775163",
+    "PREFIX": "/",
+    "GROUP_PREFIX": {
+        "24131386026449809": "*",
+        "6691735800885668": "*"
+    },
+    "ADMINBOT": [
+        "100013112775163"
+    ],
+    "NDH": [
+        "100013112775163",
+        "100011205366757"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "antists.sqlite"
+        }
+    },
+    "APPSTATEPATH": "includes/login/bkup.json",
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "error",
+        "selfListen": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+    },
+    "version": "2.7.12",
+    "log": {
+        "enable": true
+    },
+    "autoUnsendMessage": {
+        "enabled": true,
+        "timeSeconds": 2000,
+        "excludeCommands": [
+            "antiunsend"
+        ],
+        "excludeFileTypes": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".gif",
+            ".mp4",
+            ".mp3",
+            ".wav",
+            ".pdf",
+            ".txt",
+            ".docx"
+        ]
+    },
+    "help": {
+        "autoUnsend": true,
+        "delayUnsend": 60
+    },
+    "menu": {
+        "autoUnsend": {
+            "status": true,
+            "timeOut": 90
+        }
+    },
+    "qtvonly": {
+        "6691735800885668": {
+            "adminOnly": false
+        },
+        "9809247602465550": {
+            "adminOnly": true
+        }
+    }
+}

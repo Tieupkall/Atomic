@@ -1,0 +1,64 @@
+{
+  "total": [
+    {
+      "id": "61557181571043",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    },
+    {
+      "id": "100013112775163",
+      "count": 51,
+      "lastActive": 1757079928161,
+      "lastActiveDate": "2025-09-05 20:45"
+    },
+    {
+      "id": "100067827494573",
+      "count": 35,
+      "lastActive": 1757079024182,
+      "lastActiveDate": "2025-09-05 20:30"
+    }
+  ],
+  "week": [
+    {
+      "id": "61557181571043",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    },
+    {
+      "id": "100013112775163",
+      "count": 51,
+      "lastActive": 1757079928161,
+      "lastActiveDate": "2025-09-05 20:45"
+    },
+    {
+      "id": "100067827494573",
+      "count": 35,
+      "lastActive": 1757079024182,
+      "lastActiveDate": "2025-09-05 20:30"
+    }
+  ],
+  "day": [
+    {
+      "id": "61557181571043",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    },
+    {
+      "id": "100013112775163",
+      "count": 51,
+      "lastActive": 1757079928161,
+      "lastActiveDate": "2025-09-05 20:45"
+    },
+    {
+      "id": "100067827494573",
+      "count": 35,
+      "lastActive": 1757079024182,
+      "lastActiveDate": "2025-09-05 20:30"
+    }
+  ],
+  "dateYMD": "2025-09-05",
+  "weekAnchor": "2025-08-31"
+}

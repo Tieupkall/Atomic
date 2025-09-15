@@ -1,0 +1,35 @@
+{
+  "stages": [
+    "Phàm Nhân",
+    "Luyện Khí",
+    "Trúc Cơ",
+    "Kim Đan", 
+    "Nguyên Anh",
+    "Hóa Thần",
+    "Anh Biến",
+    "Vấn Đỉnh"
+  ],
+  "phases": [
+    "Sơ Kỳ",
+    "Trung Kỳ", 
+    "Đỉnh Phong"
+  ],
+  "beast_levels": [
+    "Phàm Thú",
+    "Yêu Thú",
+    "Linh Thú", 
+    "Thánh Thú",
+    "Yêu Vương",
+    "Yêu Đế",
+    "Thần Thú"
+  ],
+  "beast_stages_mapping": {
+    "Phàm Thú": "Luyện Khí",
+    "Yêu Thú": "Trúc Cơ",
+    "Linh Thú": "Kim Đan",
+    "Thánh Thú": "Nguyên Anh", 
+    "Yêu Vương": "Hóa Thần",
+    "Yêu Đế": "Anh Biến",
+    "Thần Thú": "Vấn Đỉnh"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "userID": "100066614117600",
+  "name": "meo",
+  "level": 0,
+  "exp": 0,
+  "hp": 100,
+  "maxHp": 100,
+  "spiritPower": 100,
+  "maxSpiritPower": 100,
+  "inventory": [
+    {
+      "name": "Phàm Khí Kiếm",
+      "type": "vũ khí",
+      "grade": "phàm khí",
+      "rarity": "thường",
+      "description": "Kiếm phàm thường cho tân thủ kiếm tu",
+      "attack": 15,
+      "sellPrice": 50,
+      "buyPrice": 120,
+      "minLevel": 0,
+      "level": 0,
+      "obtainedAt": "2025-08-07T15:48:10.020Z"
+    }
+  ],
+  "spiritStones": 5000,
+  "monsterLog": {},
+  "weaponType": "kiếm",
+  "spiritRoot": {
+    "grade": "Hạ phẩm linh căn",
+    "multiplier": 1,
+    "description": "Linh căn tầm thường, tu luyện với tốc độ bình thường"
+  },
+  "characterCreated": true,
+  "settings": {
+    "autoSell": false,
+    "showDetailedStats": true,
+    "language": "vi"
+  },
+  "createdAt": "2025-08-07T15:48:10.020Z",
+  "lastActive": "2025-08-07T15:48:10.020Z"
+}

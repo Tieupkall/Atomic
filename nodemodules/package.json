@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.11",
+    "canvas": "^3.1.0",
+    "gtts": "^0.2.1",
+    "request-promise-native": "^1.0.9"
+  }
+}

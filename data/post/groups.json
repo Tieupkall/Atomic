@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "id": "1129413624864367",
+      "name": "Group 1",
+      "description": "Mô tả nhóm 1",
+      "category": "test",
+      "priority": 1,
+      "autoPost": true,
+      "lastPosted": null,
+      "createdAt": "2024-01-01T00:00:00+07:00"
+    },
+    {
+      "id": "2504708292907267",
+      "name": "Group 2",
+      "description": "Mô tả nhóm 2",
+      "category": "test",
+      "priority": 2,
+      "autoPost": true,
+      "lastPosted": null,
+      "createdAt": "2024-01-01T00:00:00+07:00"
+    },
+    {
+      "id": "794911604978772",
+      "name": "Group 3",
+      "description": "Mô tả nhóm 3",
+      "category": "test",
+      "priority": 3,
+      "autoPost": true,
+      "lastPosted": null,
+      "createdAt": "2024-01-01T00:00:00+07:00"
+    }
+  ],
+  "settings": {
+    "defaultAutoPost": true,
+    "maxGroupsPerPost": 5,
+    "timezone": "Asia/Ho_Chi_Minh"
+  }
+}

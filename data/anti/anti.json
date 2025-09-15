@@ -1,0 +1,81 @@
+{
+  "6691735800885668": {
+    "enabled": false,
+    "allowedTheme": "002E16",
+    "allowedName": "Nhóm Test [ Atomic]",
+    "allowedEmoji": "🥤",
+    "protectTheme": false,
+    "protectName": false,
+    "protectEmoji": false,
+    "protectImage": false,
+    "protectAdmin": false,
+    "protectAntiout": false,
+    "protectAntispam": false,
+    "protectAntiunsend": false,
+    "violations": [
+      {
+        "userID": "61578229919625",
+        "userName": "Chàng Trai Thư Giãn",
+        "violationType": "image",
+        "oldValue": "Ảnh được bảo vệ",
+        "newValue": "Ảnh bị thay đổi trái phép",
+        "warningCount": 1,
+        "timestamp": "2025-09-05T17:22:33.638Z",
+        "action": "warn"
+      },
+      {
+        "userID": "61578229919625",
+        "userName": "Chàng Trai Thư Giãn",
+        "violationType": "image",
+        "oldValue": "Ảnh được bảo vệ",
+        "newValue": "Ảnh bị thay đổi trái phép",
+        "warningCount": 1,
+        "timestamp": "2025-09-05T17:38:23.889Z",
+        "action": "warn"
+      },
+      {
+        "userID": "61578229919625",
+        "userName": "Chàng Trai Thư Giãn",
+        "violationType": "image",
+        "oldValue": "Ảnh được bảo vệ",
+        "newValue": "Ảnh bị thay đổi trái phép",
+        "warningCount": 1,
+        "timestamp": "2025-09-05T17:53:23.287Z",
+        "action": "warn"
+      },
+      {
+        "userID": "61578229919625",
+        "userName": "Chàng Trai Thư Giãn",
+        "violationType": "image",
+        "oldValue": "Ảnh được bảo vệ",
+        "newValue": "Ảnh bị thay đổi trái phép",
+        "warningCount": 1,
+        "timestamp": "2025-09-05T18:02:21.856Z",
+        "action": "warn"
+      }
+    ],
+    "warnings": {},
+    "warningMessages": {},
+    "detectionMethod": "Global testThemeExtraction",
+    "detectionTime": "2025-09-05T18:19:28.748Z"
+  },
+  "24131386026449809": {
+    "enabled": false,
+    "allowedTheme": "789818896910445",
+    "allowedName": "Bot Vip",
+    "allowedEmoji": "😘",
+    "protectTheme": false,
+    "protectName": false,
+    "protectEmoji": false,
+    "protectImage": false,
+    "protectAdmin": false,
+    "protectAntiout": false,
+    "protectAntispam": false,
+    "protectAntiunsend": false,
+    "violations": [],
+    "warnings": {},
+    "warningMessages": {},
+    "detectionMethod": "Global testThemeExtraction",
+    "detectionTime": "2025-08-26T15:17:39.782Z"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "total": [
+    {
+      "id": "61557181571043",
+      "count": 238,
+      "lastActive": 1757929849163,
+      "lastActiveDate": "2025-09-15 16:50"
+    },
+    {
+      "id": "61561593442189",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    },
+    {
+      "id": "61578229919625",
+      "count": 22,
+      "lastActive": 1757930876250,
+      "lastActiveDate": "2025-09-15 17:07"
+    },
+    {
+      "id": "100011205366757",
+      "count": 2,
+      "lastActive": 1756994183547,
+      "lastActiveDate": "2025-09-04 20:56"
+    },
+    {
+      "id": "100013112775163",
+      "count": 446,
+      "lastActive": 1757930499811,
+      "lastActiveDate": "2025-09-15 17:01"
+    },
+    {
+      "id": "100094801909325",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    }
+  ],
+  "week": [
+    {
+      "id": "61557181571043",
+      "count": 2,
+      "lastActive": 1757929849163,
+      "lastActiveDate": "2025-09-15 16:50"
+    },
+    {
+      "id": "61561593442189",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    },
+    {
+      "id": "61578229919625",
+      "count": 9,
+      "lastActive": 1757930876250,
+      "lastActiveDate": "2025-09-15 17:07"
+    },
+    {
+      "id": "100011205366757",
+      "count": 0,
+      "lastActive": 1756994183547,
+      "lastActiveDate": "2025-09-04 20:56"
+    },
+    {
+      "id": "100013112775163",
+      "count": 4,
+      "lastActive": 1757930499811,
+      "lastActiveDate": "2025-09-15 17:01"
+    },
+    {
+      "id": "100094801909325",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    }
+  ],
+  "day": [
+    {
+      "id": "61557181571043",
+      "count": 2,
+      "lastActive": 1757929849163,
+      "lastActiveDate": "2025-09-15 16:50"
+    },
+    {
+      "id": "61561593442189",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    },
+    {
+      "id": "61578229919625",
+      "count": 9,
+      "lastActive": 1757930876250,
+      "lastActiveDate": "2025-09-15 17:07"
+    },
+    {
+      "id": "100011205366757",
+      "count": 0,
+      "lastActive": 1756994183547,
+      "lastActiveDate": "2025-09-04 20:56"
+    },
+    {
+      "id": "100013112775163",
+      "count": 4,
+      "lastActive": 1757930499811,
+      "lastActiveDate": "2025-09-15 17:01"
+    },
+    {
+      "id": "100094801909325",
+      "count": 0,
+      "lastActive": null,
+      "lastActiveDate": null
+    }
+  ],
+  "dateYMD": "2025-09-15",
+  "weekKey": "2025-W35",
+  "weekAnchor": "2025-09-14"
+}

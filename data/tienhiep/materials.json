@@ -1,0 +1,243 @@
+
+[
+  {
+    "name": "Máu Lang",
+    "rarity": "Thường",
+    "beastLevel": "Phàm Thú",
+    "description": "Máu của Huyết Lang, có thể dùng để luyện đan cơ bản",
+    "value": 5,
+    "uses": ["Luyện đan", "Cường hóa vũ khí"]
+  },
+  {
+    "name": "Lông Sói",
+    "rarity": "Thường",
+    "beastLevel": "Phàm Thú",
+    "description": "Lông của Băng Tinh Sói, mềm mại và có tính chất băng",
+    "value": 6,
+    "uses": ["Luyện đan", "Dệt y phục"]
+  },
+  {
+    "name": "Vảy Thiết Giáp",
+    "rarity": "Thường", 
+    "beastLevel": "Phàm Thú",
+    "description": "Vảy cứng của Thiết Giáp Thú, có thể rèn thành giáp",
+    "value": 8,
+    "uses": ["Rèn giáp", "Cường hóa phòng thủ", "Luyện đan"]
+  },
+  {
+    "name": "Linh Hồn Âm",
+    "rarity": "Hiếm",
+    "beastLevel": "Phàm Thú", 
+    "description": "Linh hồn của Âm Hồn, chứa năng lượng âm tính",
+    "value": 15,
+    "uses": ["Luyện đan linh khí", "Tu luyện âm công"]
+  },
+  {
+    "name": "Lông Kim Sí",
+    "rarity": "Hiếm",
+    "beastLevel": "Phàm Thú",
+    "description": "Lông vàng của Kim Sí Điểu, có thể dệt thành y phục linh khí",
+    "value": 18,
+    "uses": ["Dệt y phục", "Chế tạo bùa hộ mệnh", "Luyện đan"]
+  },
+  {
+    "name": "Máu Ma Hầu",
+    "rarity": "Quý",
+    "beastLevel": "Yêu Thú",
+    "description": "Máu của Xích Diệm Ma Hầu, chứa năng lượng hỏa hệ mạnh mẽ",
+    "value": 25,
+    "uses": ["Luyện đan hỏa linh", "Cường hóa vũ khí lửa"]
+  },
+  {
+    "name": "Răng Ma Hầu",
+    "rarity": "Quý",
+    "beastLevel": "Yêu Thú",
+    "description": "Răng sắc của Xích Diệm Ma Hầu, chứa năng lượng hỏa hệ",
+    "value": 25,
+    "uses": ["Rèn vũ khí hỏa", "Luyện đan hỏa linh"]
+  },
+  {
+    "name": "Tinh Thể Băng",
+    "rarity": "Quý",
+    "beastLevel": "Yêu Thú",
+    "description": "Tinh thể băng từ Băng Tinh Sói, có thể làm lạnh mọi thứ",
+    "value": 30,
+    "uses": ["Rèn vũ khí băng", "Luyện đan băng linh"]
+  },
+  {
+    "name": "Lôi Châu",
+    "rarity": "Quý",
+    "beastLevel": "Yêu Thú",
+    "description": "Hạt châu sấm sét từ Lôi Điển Báo, chứa sức mạnh thiên lôi",
+    "value": 35,
+    "uses": ["Rèn vũ khí lôi", "Tu luyện lôi công"]
+  },
+  {
+    "name": "Lông Phong Ảnh",
+    "rarity": "Quý",
+    "beastLevel": "Yêu Thú", 
+    "description": "Lông của Phong Ảnh Ưng, nhẹ như gió và nhanh như chớp",
+    "value": 40,
+    "uses": ["Chế tạo tốc độ bùa", "Dệt y phục tốc độ"]
+  },
+  {
+    "name": "Tinh Túy Hỗn Độn",
+    "rarity": "Cực Hiếm",
+    "beastLevel": "Linh Thú",
+    "description": "Tinh túy chứa năng lượng hỗn độn nguyên thủy",
+    "value": 50,
+    "uses": ["Luyện đan cấp cao", "Cường hóa linh căn"]
+  },
+  {
+    "name": "Vảy Long Hồn",
+    "rarity": "Cực Hiếm",
+    "beastLevel": "Linh Thú",
+    "description": "Vảy của Long Hồn, chứa tinh túy linh khí rồng",
+    "value": 60,
+    "uses": ["Luyện Long Huyết Đan", "Cường hóa linh căn"]
+  },
+  {
+    "name": "Long Cốt",
+    "rarity": "Cực Hiếm",
+    "beastLevel": "Linh Thú",
+    "description": "Xương của rồng cổ đại, chứa sức mạnh long tộc",
+    "value": 70,
+    "uses": ["Luyện đan thánh khí", "Rèn vũ khí thần"]
+  },
+  {
+    "name": "Lông Phượng Hoàng",
+    "rarity": "Cực Hiếm", 
+    "beastLevel": "Linh Thú",
+    "description": "Lông của Phượng Hoàng, có thể tái sinh và chữa lành",
+    "value": 80,
+    "uses": ["Luyện Phượng Hoàng Đan", "Chữa lành thương tích"]
+  },
+  {
+    "name": "Sừng Kỳ Lân",
+    "rarity": "Cực Hiếm",
+    "beastLevel": "Linh Thú",
+    "description": "Sừng của Kỳ Lân, có thể thanh lọc mọi độc tố",
+    "value": 100,
+    "uses": ["Luyện Thanh Tâm Đan", "Thanh lọc tà khí"]
+  },
+  {
+    "name": "Giáp Huyền Vũ",
+    "rarity": "Cực Hiếm",
+    "beastLevel": "Linh Thú",
+    "description": "Mảnh giáp của Huyền Vũ, có thể phòng thủ tuyệt đối",
+    "value": 120,
+    "uses": ["Rèn giáp thần", "Cường hóa phòng thủ tối đại"]
+  },
+  {
+    "name": "Tinh Hồn Cửu Vĩ",
+    "rarity": "Thần Thoại",
+    "beastLevel": "Thánh Thú",
+    "description": "Tinh hồn của Cửu Vĩ Hồ, chứa sức mạnh huyền bí",
+    "value": 150,
+    "uses": ["Luyện đan thánh khí", "Nâng cao linh căn"]
+  },
+  {
+    "name": "Ma Khí Tinh Túy",
+    "rarity": "Thần Thoại",
+    "beastLevel": "Yêu Vương",
+    "description": "Tinh túy ma khí từ các Ma Vương, cực kỳ nguy hiểm",
+    "value": 200,
+    "uses": ["Luyện đan ma đạo", "Cường hóa ma công"]
+  },
+  {
+    "name": "Địa Ngục Hỏa Chủng",
+    "rarity": "Thần Thoại",
+    "beastLevel": "Yêu Vương",
+    "description": "Hạt giống lửa từ địa ngục, có thể thiêu cháy mọi thứ",
+    "value": 250,
+    "uses": ["Luyện đan địa ngục", "Rèn vũ khí ma"]
+  },
+  {
+    "name": "Thiên Ma Tinh Hoa",
+    "rarity": "Huyền Thoại",
+    "beastLevel": "Yêu Đế",
+    "description": "Tinh hoa của Thiên Ma Hoàng, chứa sức mạnh thiên ma",
+    "value": 300,
+    "uses": ["Luyện Thiên Ma Đan", "Tu luyện ma đạo"]
+  },
+  {
+    "name": "Tuyệt Thế Ma Huyết",
+    "rarity": "Huyền Thoại",
+    "beastLevel": "Yêu Đế",
+    "description": "Máu của Tuyệt Thế Yêu Vương, có thể tái tạo thân thể",
+    "value": 350,
+    "uses": ["Luyện đan bất tử", "Cải tạo thể chất"]
+  },
+  {
+    "name": "Thái Thượng Tinh Túy",
+    "rarity": "Huyền Thoại",
+    "beastLevel": "Yêu Đế",
+    "description": "Tinh túy của Thái Thượng Yêu Đế, chứa đạo lý thiên địa",
+    "value": 400,
+    "uses": ["Luyện đan thái thượng", "Lĩnh ngộ đại đạo"]
+  },
+  {
+    "name": "Hỗn Thiên Bảo Châu",
+    "rarity": "Vô Cực",
+    "beastLevel": "Yêu Đế",
+    "description": "Bảo châu của Hỗn Thiên Yêu Đế, chứa sức mạnh hỗn độn",
+    "value": 500,
+    "uses": ["Luyện đan hỗn thiên", "Nắm giữ hỗn độn"]
+  },
+  {
+    "name": "Vô Cực Tinh Thể",
+    "rarity": "Vô Cực",
+    "beastLevel": "Yêu Đế",
+    "description": "Tinh thể của Vô Cực Yêu Đế, vượt qua giới hạn",
+    "value": 600,
+    "uses": ["Luyện đan vô cực", "Phá vỡ giới hạn"]
+  },
+  {
+    "name": "Tối Cường Ma Hồn",
+    "rarity": "Vô Cực",
+    "beastLevel": "Yêu Đế",
+    "description": "Ma hồn của Tối Cường Yêu Đế, sức mạnh tối thượng",
+    "value": 700,
+    "uses": ["Luyện đan tối cường", "Đạt đến đỉnh cao"]
+  },
+  {
+    "name": "Thái Cổ Thần Tủy",
+    "rarity": "Tối Thượng",
+    "beastLevel": "Thần Thú",
+    "description": "Tủy của Thái Cổ Thần Thú, chứa sức mạnh thái cổ",
+    "value": 800,
+    "uses": ["Luyện đan thái cổ", "Thừa kế thái cổ"]
+  },
+  {
+    "name": "Hỗn Độn Thần Tinh",
+    "rarity": "Tối Thượng",
+    "beastLevel": "Thần Thú",
+    "description": "Tinh chất của Hỗn Độn Thần Thú, chứa đạo lý hỗn độn",
+    "value": 900,
+    "uses": ["Luyện đan hỗn độn", "Lĩnh ngộ hỗn độn"]
+  },
+  {
+    "name": "Vô Thượng Thần Hoa",
+    "rarity": "Tối Thượng",
+    "beastLevel": "Thần Thú",
+    "description": "Thần hoa của Vô Thượng Thần Thú, có thể hồi sinh",
+    "value": 1000,
+    "uses": ["Luyện đan vô thượng", "Hồi sinh thần minh"]
+  },
+  {
+    "name": "Tối Cao Thần Nguyên",
+    "rarity": "Tối Thượng",
+    "beastLevel": "Thần Thú",
+    "description": "Thần nguyên của Tối Cao Thần Thú, sức mạnh tối cao",
+    "value": 1200,
+    "uses": ["Luyện đan tối cao", "Đạt đến tối cao"]
+  },
+  {
+    "name": "Long Châu Thần",
+    "rarity": "Tối Thượng",
+    "beastLevel": "Thần Thú",
+    "description": "Long châu của Thần Rồng, chứa sức mạnh thần thánh",
+    "value": 1500,
+    "uses": ["Luyện đan thần long", "Hóa thân thành rồng"]
+  }
+]

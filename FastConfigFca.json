@@ -1,0 +1,56 @@
+{
+    "Language": "vi",
+    "PreKey": "LunarKrystal",
+    "AutoUpdate": false,
+    "MainColor": "#9900FF",
+    "MainName": "[ LOGIN ]",
+    "Uptime": false,
+    "Config": "default",
+    "DevMode": false,
+    "Login2Fa": true,
+    "BroadCast": false,
+    "AuthString": "",
+    "EncryptFeature": true,
+    "ResetDataLogin": false,
+    "AutoInstallNode": true,
+    "AntiSendAppState": true,
+    "AutoRestartMinutes": 0,
+    "RestartMQTT_Minutes": 60,
+    "Websocket_Extension": {
+        "Status": false,
+        "ResetData": false,
+        "AppState_Path": "includes/login/bkup.json"
+    },
+    "AntiGetInfo": {
+        "Database_Type": "default",
+        "AntiGetThreadInfo": false,
+        "AntiGetUserInfo": false
+    },
+    "Stable_Version": {
+        "Accept": false,
+        "Version": ""
+    },
+    "CheckPointBypass": {
+        "956": {
+            "Allow": false,
+            "Difficult": "Easy",
+            "Notification": "Turn on with AutoLogin!"
+        }
+    },
+    "AntiStuckAndMemoryLeak": {
+        "AutoRestart": {
+            "Use": true,
+            "Explain": "When this feature is turned on, the system will continuously check and confirm that if memory usage reaches 90%, it will automatically restart to avoid freezing or stopping."
+        },
+        "LogFile": {
+            "Use": true,
+            "Explain": "Record memory usage logs to fix errors. Default location: Horizon_Database/memory.logs"
+        }
+    },
+    "HTML": {
+        "HTML": false,
+        "UserName": "LunarKrystal",
+        "MusicLink": "https://files.catbox.moe/h6dtdh.mp3"
+    },
+    "AutoLogin": false
+}

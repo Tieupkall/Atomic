@@ -1,0 +1,25 @@
+{
+  "current_account": "account2",
+  "accounts": {
+    "account1": {
+      "EMAIL": "Quinnt090505@gmail.com",
+      "PASSWORD": "11111111@qQ",
+      "2FA": "MUQU LNQJ M3B5 6H6E KZGB 3VRA LA7L 55UW",
+      "i_user": false,
+      "i_user_id": "61578229919625",
+      "COOKIE": "",
+      "EAAD6V7": "",
+      "EAAAAU": ""
+    },
+    "account2": {
+      "EMAIL": "Quinnt090505@gmail.com",
+      "PASSWORD": "11111111@qQ",
+      "2FA": "MUQU LNQJ M3B5 6H6E KZGB 3VRA LA7L 55UW",
+      "i_user": true,
+      "i_user_id": "61578229919625",
+      "COOKIE": "c_user=61557181571043; xs=47:dnpW0NXvymN2WQ:2:1757917285:-1:-1; fr=1bihJsWxQSf9mtsk1.AWf6P22Iu_sIrRtDNAZwGpRcn9U4BHHOqAgglKVzP9qRcpCdLLU.Box7Bk..AAA.0.0.Box7Bk.AWcjrX5owSwDfNqB4nZRjge-UOk; datr=ZLDHaNsv1GUxX8JJE2V6P_zO; i_user=61578229919625",
+      "EAAD6V7": "EAAD6V7os0gcBPdaZCs7nUoD6zzolkFwzMxc8D6d8548Sr22RL2FCW4gZAuYDMpItZBtMdlNfVGGdSZCEdrAZC5dHOzdk6aTEIWxEWmUrIZBPddMh6ZB1PCm7WuM9TnqtaXRWlMHwc1ZBOMZBkzsAIUQVb9lPz8sHabgZCAQToZB2b2X1QiONeGc1aiyvUYEfRuwwyTqBwZDZD",
+      "EAAAAU": "EAAAAUaZA8jlABPZAIG8SRKnQtjk0RDcyGRYYr2RTmEuJ5Jc80qPOpPJVK1Ghnnd3BZCSCmQTDawqZBJVJ6R0f1ku1Yp10fQlRYV3CFaKbomHBDUrxZCaIguJeeIynEYFWnUkJkYMRIehvN0AZCQkpV65bCNuAkemCm6sLdeJ4o9xaxx7O9ZABYRYdicGZA5nnyolSCTk7FWn1AZDZD"
+    }
+  }
+}

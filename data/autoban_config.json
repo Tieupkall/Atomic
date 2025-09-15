@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "maxMessages": 3,
+  "timeWindow": 2000,
+  "banDuration": 600000,
+  "lastUpdated": "19:55:51 6/7/2025"
+}

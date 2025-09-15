@@ -1,0 +1,467 @@
+[
+  {
+    "timestamp": "2025-08-09T17:12:48.023Z",
+    "vietnamTime": "00:12:48 10/8/2025",
+    "type": "INFO",
+    "message": "AutoPost Scheduler đã bắt đầu chạy",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-11T05:00:00.017Z",
+    "vietnamTime": "12:00:00 11/8/2025",
+    "type": "INFO",
+    "message": "✅ Bài viết ID 2 sẽ chạy - Hiện tại: 05:00, Lên lịch: 12:00",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-11T05:00:00.019Z",
+    "vietnamTime": "12:00:00 11/8/2025",
+    "type": "INFO",
+    "message": "✅ Bài viết ID 2 sẽ chạy - Hiện tại: 05:00, Lên lịch: 12:00",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-11T05:00:00.019Z",
+    "vietnamTime": "12:00:00 11/8/2025",
+    "type": "INFO",
+    "message": "Bắt đầu thực hiện bài viết: 🎯CÔNG TY ETRON Việt Nam! KCN VSIP🎯\n\n✨Cty sản xuấ...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-11T05:00:07.484Z",
+    "vietnamTime": "12:00:07 11/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 1 thành công",
+    "data": {
+      "postID": "1464664521339274",
+      "urlPost": "https://www.facebook.com/groups/1129413624864367/permalink/1464664521339274/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-11T05:00:14.710Z",
+    "vietnamTime": "12:00:14 11/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 2 thành công",
+    "data": {
+      "postID": "25223372877280819",
+      "urlPost": "https://www.facebook.com/groups/2504708292907267/permalink/25223372877280819/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-11T05:00:22.048Z",
+    "vietnamTime": "12:00:22 11/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 3 thành công",
+    "data": {
+      "postID": "1471782120625047",
+      "urlPost": "https://www.facebook.com/groups/vieclammienbac.com.vn/permalink/1471782120625047/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-11T05:00:22.055Z",
+    "vietnamTime": "12:00:22 11/8/2025",
+    "type": "INFO",
+    "message": "Hoàn thành bài viết - Thành công: 3, Thất bại: 0",
+    "data": {
+      "postId": 2,
+      "content": "🎯CÔNG TY ETRON Việt Nam! KCN VSIP🎯\n\n✨Cty sản xuất bản mạch điện tử ✨\n Làm ngồi điều hoà thoải mái \nTHU NHẬP TRUNG BÌNH THÁNG 12-15 TRIỆU \n👉LƯƠNG CƠ BẢN:\n 🎈Công nhân sản xuất: 5.100.000 đ/tháng\n👉CÁC KHOẢN PHỤ CẤP:\n 🎈Chuyên cần: 300.000 đ\n 🎈Nhà ở: 300.000 đ\n 🎈Xăng xe/ Đi lại: 300.000 đ\n 🎈Hiệu suất công việc: 800.000-1.521.000đ\n 🎈Trợ cấp kinh nguyệt: 1,5 giờ/tháng \n 🎈Thâm niên: từ 100.000 – 1.600.000 đ/tháng\n 🎈Trợ cấp con nhỏ (< 6 tuổi): 50.000 đ/tháng\nLh Quỳnh : 0869055025\n\nhttps://www.facebook.com/share/19Yc9ZDs3j/?mibextid=wwXIfr",
+      "type": "all_groups",
+      "timestamp": "2025-08-11T05:00:22.049Z",
+      "vietnamTime": "12:00:22 11/8/2025",
+      "results": [
+        {
+          "type": "group",
+          "groupId": "1129413624864367",
+          "groupName": "Group 1",
+          "success": true,
+          "result": {
+            "postID": "1464664521339274",
+            "urlPost": "https://www.facebook.com/groups/1129413624864367/permalink/1464664521339274/",
+            "success": true
+          }
+        },
+        {
+          "type": "group",
+          "groupId": "2504708292907267",
+          "groupName": "Group 2",
+          "success": true,
+          "result": {
+            "postID": "25223372877280819",
+            "urlPost": "https://www.facebook.com/groups/2504708292907267/permalink/25223372877280819/",
+            "success": true
+          }
+        },
+        {
+          "type": "group",
+          "groupId": "794911604978772",
+          "groupName": "Group 3",
+          "success": true,
+          "result": {
+            "postID": "1471782120625047",
+            "urlPost": "https://www.facebook.com/groups/vieclammienbac.com.vn/permalink/1471782120625047/",
+            "success": true
+          }
+        }
+      ],
+      "successCount": 3,
+      "failCount": 0
+    }
+  },
+  {
+    "timestamp": "2025-08-11T05:00:27.448Z",
+    "vietnamTime": "12:00:27 11/8/2025",
+    "type": "INFO",
+    "message": "Đã gửi thông báo đến nhóm 6691735800885668",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-12T00:00:00.030Z",
+    "vietnamTime": "07:00:00 12/8/2025",
+    "type": "INFO",
+    "message": "✅ Bài viết ID 1 sẽ chạy - Hiện tại: 00:00, Lên lịch: 07:00",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-12T00:00:00.035Z",
+    "vietnamTime": "07:00:00 12/8/2025",
+    "type": "INFO",
+    "message": "✅ Bài viết ID 1 sẽ chạy - Hiện tại: 00:00, Lên lịch: 07:00",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-12T00:00:00.042Z",
+    "vietnamTime": "07:00:00 12/8/2025",
+    "type": "INFO",
+    "message": "Bắt đầu thực hiện bài viết: 🎯CÔNG TY ETRON Việt Nam! KCN VSIP🎯\n\n✨Cty sản xuấ...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-12T00:00:06.938Z",
+    "vietnamTime": "07:00:06 12/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 1 thành công",
+    "data": {
+      "postID": "1465305491275177",
+      "urlPost": "https://www.facebook.com/groups/1129413624864367/permalink/1465305491275177/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-12T00:00:13.311Z",
+    "vietnamTime": "07:00:13 12/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 2 thành công",
+    "data": {
+      "postID": "25230765229874917",
+      "urlPost": "https://www.facebook.com/groups/2504708292907267/permalink/25230765229874917/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-12T00:00:20.771Z",
+    "vietnamTime": "07:00:20 12/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 3 thành công",
+    "data": {
+      "postID": "1472425503894042",
+      "urlPost": "https://www.facebook.com/groups/vieclammienbac.com.vn/permalink/1472425503894042/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-12T00:00:20.776Z",
+    "vietnamTime": "07:00:20 12/8/2025",
+    "type": "INFO",
+    "message": "Hoàn thành bài viết - Thành công: 3, Thất bại: 0",
+    "data": {
+      "postId": 1,
+      "content": "🎯CÔNG TY ETRON Việt Nam! KCN VSIP🎯\n\n✨Cty sản xuất bản mạch điện tử ✨\n Làm ngồi điều hoà thoải mái \nTHU NHẬP TRUNG BÌNH THÁNG 12-15 TRIỆU \n👉LƯƠNG CƠ BẢN:\n 🎈Công nhân sản xuất: 5.100.000 đ/tháng\n👉CÁC KHOẢN PHỤ CẤP:\n 🎈Chuyên cần: 300.000 đ\n 🎈Nhà ở: 300.000 đ\n 🎈Xăng xe/ Đi lại: 300.000 đ\n 🎈Hiệu suất công việc: 800.000-1.521.000đ\n 🎈Trợ cấp kinh nguyệt: 1,5 giờ/tháng \n 🎈Thâm niên: từ 100.000 – 1.600.000 đ/tháng\n 🎈Trợ cấp con nhỏ (< 6 tuổi): 50.000 đ/tháng\nLh Quỳnh : 0869055025\n\nhttps://www.facebook.com/share/19Yc9ZDs3j/?mibextid=wwXIfr",
+      "type": "all_groups",
+      "timestamp": "2025-08-12T00:00:20.772Z",
+      "vietnamTime": "07:00:20 12/8/2025",
+      "results": [
+        {
+          "type": "group",
+          "groupId": "1129413624864367",
+          "groupName": "Group 1",
+          "success": true,
+          "result": {
+            "postID": "1465305491275177",
+            "urlPost": "https://www.facebook.com/groups/1129413624864367/permalink/1465305491275177/",
+            "success": true
+          }
+        },
+        {
+          "type": "group",
+          "groupId": "2504708292907267",
+          "groupName": "Group 2",
+          "success": true,
+          "result": {
+            "postID": "25230765229874917",
+            "urlPost": "https://www.facebook.com/groups/2504708292907267/permalink/25230765229874917/",
+            "success": true
+          }
+        },
+        {
+          "type": "group",
+          "groupId": "794911604978772",
+          "groupName": "Group 3",
+          "success": true,
+          "result": {
+            "postID": "1472425503894042",
+            "urlPost": "https://www.facebook.com/groups/vieclammienbac.com.vn/permalink/1472425503894042/",
+            "success": true
+          }
+        }
+      ],
+      "successCount": 3,
+      "failCount": 0
+    }
+  },
+  {
+    "timestamp": "2025-08-12T00:00:27.264Z",
+    "vietnamTime": "07:00:27 12/8/2025",
+    "type": "INFO",
+    "message": "Đã gửi thông báo đến nhóm 6691735800885668",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T00:00:00.017Z",
+    "vietnamTime": "07:00:00 15/8/2025",
+    "type": "INFO",
+    "message": "✅ Bài viết ID 1 sẽ chạy - Hiện tại: 00:00, Lên lịch: 07:00",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T00:00:00.020Z",
+    "vietnamTime": "07:00:00 15/8/2025",
+    "type": "INFO",
+    "message": "✅ Bài viết ID 1 sẽ chạy - Hiện tại: 00:00, Lên lịch: 07:00",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T00:00:00.028Z",
+    "vietnamTime": "07:00:00 15/8/2025",
+    "type": "INFO",
+    "message": "Bắt đầu thực hiện bài viết: 🎯CÔNG TY ETRON Việt Nam! KCN VSIP🎯\n\n✨Cty sản xuấ...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T00:00:06.810Z",
+    "vietnamTime": "07:00:06 15/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 1 thành công",
+    "data": {
+      "postID": "1467656091040117",
+      "urlPost": "https://www.facebook.com/groups/1129413624864367/permalink/1467656091040117/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-15T00:00:13.527Z",
+    "vietnamTime": "07:00:13 15/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 2 thành công",
+    "data": {
+      "postID": "25256324383985668",
+      "urlPost": "https://www.facebook.com/groups/2504708292907267/permalink/25256324383985668/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-15T00:00:19.910Z",
+    "vietnamTime": "07:00:19 15/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 3 thành công",
+    "data": {
+      "postID": "1474785860324673",
+      "urlPost": "https://www.facebook.com/groups/vieclammienbac.com.vn/permalink/1474785860324673/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-15T00:00:19.912Z",
+    "vietnamTime": "07:00:19 15/8/2025",
+    "type": "INFO",
+    "message": "Hoàn thành bài viết - Thành công: 3, Thất bại: 0",
+    "data": {
+      "postId": 1,
+      "content": "🎯CÔNG TY ETRON Việt Nam! KCN VSIP🎯\n\n✨Cty sản xuất bản mạch điện tử ✨\n Làm ngồi điều hoà thoải mái \nTHU NHẬP TRUNG BÌNH THÁNG 12-15 TRIỆU \n👉LƯƠNG CƠ BẢN:\n 🎈Công nhân sản xuất: 5.100.000 đ/tháng\n👉CÁC KHOẢN PHỤ CẤP:\n 🎈Chuyên cần: 300.000 đ\n 🎈Nhà ở: 300.000 đ\n 🎈Xăng xe/ Đi lại: 300.000 đ\n 🎈Hiệu suất công việc: 800.000-1.521.000đ\n 🎈Trợ cấp kinh nguyệt: 1,5 giờ/tháng \n 🎈Thâm niên: từ 100.000 – 1.600.000 đ/tháng\n 🎈Trợ cấp con nhỏ (< 6 tuổi): 50.000 đ/tháng\nLh Quỳnh : 0869055025\n\nhttps://www.facebook.com/share/19Yc9ZDs3j/?mibextid=wwXIfr",
+      "type": "all_groups",
+      "timestamp": "2025-08-15T00:00:19.911Z",
+      "vietnamTime": "07:00:19 15/8/2025",
+      "results": [
+        {
+          "type": "group",
+          "groupId": "1129413624864367",
+          "groupName": "Group 1",
+          "success": true,
+          "result": {
+            "postID": "1467656091040117",
+            "urlPost": "https://www.facebook.com/groups/1129413624864367/permalink/1467656091040117/",
+            "success": true
+          }
+        },
+        {
+          "type": "group",
+          "groupId": "2504708292907267",
+          "groupName": "Group 2",
+          "success": true,
+          "result": {
+            "postID": "25256324383985668",
+            "urlPost": "https://www.facebook.com/groups/2504708292907267/permalink/25256324383985668/",
+            "success": true
+          }
+        },
+        {
+          "type": "group",
+          "groupId": "794911604978772",
+          "groupName": "Group 3",
+          "success": true,
+          "result": {
+            "postID": "1474785860324673",
+            "urlPost": "https://www.facebook.com/groups/vieclammienbac.com.vn/permalink/1474785860324673/",
+            "success": true
+          }
+        }
+      ],
+      "successCount": 3,
+      "failCount": 0
+    }
+  },
+  {
+    "timestamp": "2025-08-15T00:00:25.617Z",
+    "vietnamTime": "07:00:25 15/8/2025",
+    "type": "INFO",
+    "message": "Đã gửi thông báo đến nhóm 6691735800885668",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T11:00:00.016Z",
+    "vietnamTime": "18:00:00 15/8/2025",
+    "type": "INFO",
+    "message": "✅ Bài viết ID 3 sẽ chạy - Hiện tại: 11:00, Lên lịch: 18:00",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T11:00:00.026Z",
+    "vietnamTime": "18:00:00 15/8/2025",
+    "type": "INFO",
+    "message": "✅ Bài viết ID 3 sẽ chạy - Hiện tại: 11:00, Lên lịch: 18:00",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T11:00:00.034Z",
+    "vietnamTime": "18:00:00 15/8/2025",
+    "type": "INFO",
+    "message": "Bắt đầu thực hiện bài viết: 🎯CÔNG TY ETRON Việt Nam! KCN VSIP🎯\n\n✨Cty sản xuấ...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T11:00:06.958Z",
+    "vietnamTime": "18:00:06 15/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 1 thành công",
+    "data": {
+      "postID": "1468033457669047",
+      "urlPost": "https://www.facebook.com/groups/1129413624864367/permalink/1468033457669047/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-15T11:00:13.555Z",
+    "vietnamTime": "18:00:13 15/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 2 thành công",
+    "data": {
+      "postID": "25260084323609674",
+      "urlPost": "https://www.facebook.com/groups/2504708292907267/permalink/25260084323609674/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-15T11:00:20.031Z",
+    "vietnamTime": "18:00:20 15/8/2025",
+    "type": "SUCCESS",
+    "message": "Đăng nhóm Group 3 thành công",
+    "data": {
+      "postID": "1475174166952509",
+      "urlPost": "https://www.facebook.com/groups/vieclammienbac.com.vn/permalink/1475174166952509/",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2025-08-15T11:00:20.034Z",
+    "vietnamTime": "18:00:20 15/8/2025",
+    "type": "INFO",
+    "message": "Hoàn thành bài viết - Thành công: 3, Thất bại: 0",
+    "data": {
+      "postId": 3,
+      "content": "🎯CÔNG TY ETRON Việt Nam! KCN VSIP🎯\n\n✨Cty sản xuất bản mạch điện tử ✨\n Làm ngồi điều hoà thoải mái \nTHU NHẬP TRUNG BÌNH THÁNG 12-15 TRIỆU \n👉LƯƠNG CƠ BẢN:\n 🎈Công nhân sản xuất: 5.100.000 đ/tháng\n👉CÁC KHOẢN PHỤ CẤP:\n 🎈Chuyên cần: 300.000 đ\n 🎈Nhà ở: 300.000 đ\n 🎈Xăng xe/ Đi lại: 300.000 đ\n 🎈Hiệu suất công việc: 800.000-1.521.000đ\n 🎈Trợ cấp kinh nguyệt: 1,5 giờ/tháng \n 🎈Thâm niên: từ 100.000 – 1.600.000 đ/tháng\n 🎈Trợ cấp con nhỏ (< 6 tuổi): 50.000 đ/tháng\nLh Quỳnh : 0869055025\n\nhttps://www.facebook.com/share/19Yc9ZDs3j/?mibextid=wwXIfr",
+      "type": "all_groups",
+      "timestamp": "2025-08-15T11:00:20.032Z",
+      "vietnamTime": "18:00:20 15/8/2025",
+      "results": [
+        {
+          "type": "group",
+          "groupId": "1129413624864367",
+          "groupName": "Group 1",
+          "success": true,
+          "result": {
+            "postID": "1468033457669047",
+            "urlPost": "https://www.facebook.com/groups/1129413624864367/permalink/1468033457669047/",
+            "success": true
+          }
+        },
+        {
+          "type": "group",
+          "groupId": "2504708292907267",
+          "groupName": "Group 2",
+          "success": true,
+          "result": {
+            "postID": "25260084323609674",
+            "urlPost": "https://www.facebook.com/groups/2504708292907267/permalink/25260084323609674/",
+            "success": true
+          }
+        },
+        {
+          "type": "group",
+          "groupId": "794911604978772",
+          "groupName": "Group 3",
+          "success": true,
+          "result": {
+            "postID": "1475174166952509",
+            "urlPost": "https://www.facebook.com/groups/vieclammienbac.com.vn/permalink/1475174166952509/",
+            "success": true
+          }
+        }
+      ],
+      "successCount": 3,
+      "failCount": 0
+    }
+  },
+  {
+    "timestamp": "2025-08-15T11:00:24.264Z",
+    "vietnamTime": "18:00:24 15/8/2025",
+    "type": "INFO",
+    "message": "Đã gửi thông báo đến nhóm 6691735800885668",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T23:49:19.555Z",
+    "vietnamTime": "06:49:19 16/8/2025",
+    "type": "ERROR",
+    "message": "Lỗi đọc config: Unexpected token : in JSON at position 885",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-15T23:49:19.559Z",
+    "vietnamTime": "06:49:19 16/8/2025",
+    "type": "INFO",
+    "message": "Đã tạo config mặc định",
+    "data": null
+  }
+]

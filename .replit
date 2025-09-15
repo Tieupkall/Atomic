@@ -1,0 +1,14 @@
+modules = ["nodejs-20", "python-3.11"]
+[nix]
+packages = ["unzipNLS"]
+
+[agent]
+expertMode = true
+
+[[ports]]
+localPort = 2053
+externalPort = 3000
+
+[[ports]]
+localPort = 3000
+externalPort = 80

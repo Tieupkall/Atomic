@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "delays": {
+    "normal": {
+      "min": 800,
+      "max": 2500
+    },
+    "admin": {
+      "min": 500,
+      "max": 1500
+    },
+    "heavy": {
+      "min": 2000,
+      "max": 5000
+    },
+    "ai": {
+      "min": 1500,
+      "max": 4000
+    },
+    "game": {
+      "min": 1000,
+      "max": 3000
+    }
+  },
+  "factors": {
+    "messageLength": 0.02,
+    "threadActivity": 0.3,
+    "userHistory": 0.2,
+    "timeOfDay": 0.15,
+    "commandFrequency": 0.25
+  },
+  "patterns": {
+    "typing": true,
+    "typingDuration": {
+      "min": 800,
+      "max": 2500
+    },
+    "pauseBetweenMessages": 300,
+    "humanErrors": 0.05
+  }
+}
